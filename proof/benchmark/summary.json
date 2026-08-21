@@ -1,0 +1,119 @@
+{
+  "benchmark_version": "8811.recall.bench.v1",
+  "n_records": 69,
+  "n_queries": 200,
+  "top1_n": 164,
+  "top1_ok": 154,
+  "top1_accuracy": 0.9390243902439024,
+  "hit_n": 166,
+  "hit_ok": 162,
+  "hit_set_accuracy": 0.9759036144578314,
+  "negative_n": 30,
+  "negative_fp": 3,
+  "negative_fp_rate": 0.1,
+  "inactive_leak_queries": 0,
+  "echo_query_ok": true,
+  "determinism_fail_full_pass": 0,
+  "determinism_fail_50x_first40": 0,
+  "llm_judge": false,
+  "by_category": {
+    "A_exact": {
+      "n": 69,
+      "top1_ok": 69,
+      "hit_ok": 69,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "B_paraphrase": {
+      "n": 60,
+      "top1_ok": 54,
+      "hit_ok": 58,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "C_short": {
+      "n": 20,
+      "top1_ok": 19,
+      "hit_ok": 19,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "D_long": {
+      "n": 10,
+      "top1_ok": 7,
+      "hit_ok": 9,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "E_similar_wrong": {
+      "n": 3,
+      "top1_ok": 3,
+      "hit_ok": 3,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "F_negative": {
+      "n": 30,
+      "top1_ok": 27,
+      "hit_ok": 27,
+      "neg_fp": 3,
+      "leak": 0
+    },
+    "G_superseded": {
+      "n": 1,
+      "top1_ok": 0,
+      "hit_ok": 0,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "H_retracted": {
+      "n": 1,
+      "top1_ok": 0,
+      "hit_ok": 0,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "I_test": {
+      "n": 1,
+      "top1_ok": 0,
+      "hit_ok": 0,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "J_plan_meta": {
+      "n": 1,
+      "top1_ok": 0,
+      "hit_ok": 0,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "K_durable_vs_recent": {
+      "n": 1,
+      "top1_ok": 1,
+      "hit_ok": 1,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "L_same_key": {
+      "n": 1,
+      "top1_ok": 1,
+      "hit_ok": 1,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "M_scope": {
+      "n": 1,
+      "top1_ok": 0,
+      "hit_ok": 1,
+      "neg_fp": 0,
+      "leak": 0
+    },
+    "N_ambiguous": {
+      "n": 1,
+      "top1_ok": 0,
+      "hit_ok": 1,
+      "neg_fp": 0,
+      "leak": 0
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "before": {
+    "label": "BEFORE",
+    "top1": 0.706,
+    "hit_set": 0.706,
+    "negative_fp_rate": 0.5,
+    "inactive_leakage": 0,
+    "determinism": true,
+    "receipt": "reports/original_BEFORE.json"
+  },
+  "after": {
+    "label": "AFTER_SUPPORT2",
+    "top1": 0.941,
+    "hit_set": 0.941,
+    "negative_fp_rate": 0.0,
+    "inactive_leakage": 0,
+    "determinism": true,
+    "known_abstention": "pos-style-001",
+    "receipt": "reports/original_AFTER.json"
+  },
+  "method_after": "idf_plus_min_exact_support_abstention",
+  "note": "Prefer abstention over weak guidance. Original suite is not retargeted."
+}

@@ -1,0 +1,243 @@
+{
+  "label": "BEFORE",
+  "frozen_hashes": {
+    "bank_seed": "b4a8db89a939",
+    "queries": "818795a2f53d",
+    "expected": "51ae26972649"
+  },
+  "determinism": true,
+  "aggregate": {
+    "n": 17,
+    "top1": 0.7058823529411765,
+    "hit_set": 0.7058823529411765,
+    "negative_false_positive_rate": 0.5,
+    "inactive_leakage_count": 0,
+    "inactive_leakage_rate": 0.0,
+    "similar_wrong_top1_count": 2
+  },
+  "per_query": [
+    {
+      "id": "pos-deploy-001",
+      "hit_ids": [
+        "rec-active-similar-wrong-ci-green",
+        "rec-active-deploy-approval"
+      ],
+      "top1": "rec-active-similar-wrong-ci-green",
+      "hit_at_1": false,
+      "hit_set_ok": false,
+      "negative_fp": true,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": true
+    },
+    {
+      "id": "pos-style-001",
+      "hit_ids": [],
+      "top1": null,
+      "hit_at_1": false,
+      "hit_set_ok": false,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "pos-pathlib-001",
+      "hit_ids": [
+        "rec-active-python-pathlib"
+      ],
+      "top1": "rec-active-python-pathlib",
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "pos-delete-001",
+      "hit_ids": [
+        "rec-active-delete-confirm"
+      ],
+      "top1": "rec-active-delete-confirm",
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "pos-multi-001",
+      "hit_ids": [
+        "rec-active-style-concise",
+        "rec-active-deploy-approval",
+        "rec-active-similar-wrong-ci-green"
+      ],
+      "top1": "rec-active-style-concise",
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "sim-wrong-001",
+      "hit_ids": [
+        "rec-active-similar-wrong-ci-green"
+      ],
+      "top1": "rec-active-similar-wrong-ci-green",
+      "hit_at_1": false,
+      "hit_set_ok": false,
+      "negative_fp": true,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": true
+    },
+    {
+      "id": "short-001",
+      "hit_ids": [
+        "rec-active-deploy-approval",
+        "rec-active-similar-wrong-ci-green",
+        "rec-active-unrelated-pasta"
+      ],
+      "top1": "rec-active-deploy-approval",
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "short-002",
+      "hit_ids": [
+        "rec-active-python-pathlib"
+      ],
+      "top1": "rec-active-python-pathlib",
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "short-003",
+      "hit_ids": [
+        "rec-active-delete-confirm"
+      ],
+      "top1": "rec-active-delete-confirm",
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "neg-trivia-001",
+      "hit_ids": [],
+      "top1": null,
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "neg-trivia-002",
+      "hit_ids": [],
+      "top1": null,
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "neg-unrelated-001",
+      "hit_ids": [
+        "rec-active-unrelated-pasta"
+      ],
+      "top1": "rec-active-unrelated-pasta",
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": true,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "neg-scope-001",
+      "hit_ids": [
+        "rec-active-project-a-tone"
+      ],
+      "top1": "rec-active-project-a-tone",
+      "hit_at_1": false,
+      "hit_set_ok": false,
+      "negative_fp": true,
+      "inactive_leakage": [],
+      "forbidden_hits": [
+        "rec-active-project-a-tone"
+      ],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "inactive-super-001",
+      "hit_ids": [
+        "rec-active-style-concise"
+      ],
+      "top1": "rec-active-style-concise",
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "inactive-retract-001",
+      "hit_ids": [
+        "rec-active-delete-confirm"
+      ],
+      "top1": "rec-active-delete-confirm",
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "inactive-test-001",
+      "hit_ids": [
+        "rec-active-deploy-approval",
+        "rec-active-similar-wrong-ci-green"
+      ],
+      "top1": "rec-active-deploy-approval",
+      "hit_at_1": true,
+      "hit_set_ok": true,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    },
+    {
+      "id": "inactive-meta-001",
+      "hit_ids": [
+        "rec-active-similar-wrong-ci-green"
+      ],
+      "top1": "rec-active-similar-wrong-ci-green",
+      "hit_at_1": false,
+      "hit_set_ok": false,
+      "negative_fp": false,
+      "inactive_leakage": [],
+      "forbidden_hits": [],
+      "similar_wrong_top1": false
+    }
+  ]
+}

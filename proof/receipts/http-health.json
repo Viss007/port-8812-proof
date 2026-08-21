@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "service": "8812-product",
+  "surface": "8811.guidance.v1",
+  "guidance_product": {
+    "status": "ok",
+    "surface": "8811.guidance.v1",
+    "bank": {
+      "path": "<checkout>\\var\\bank\\stranger-proof-20260819-115609\\guidance_bank.json",
+      "sha256": "4f33d0287c1c025e574f5442b2a810f4d703df6628e6df2141dcbbd8e69e27da",
+      "bytes": 54,
+      "count": 0,
+      "role": "demo",
+      "recovered_from_backup": false
+    },
+    "llm_judgment": false
+  }
+}

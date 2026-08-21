@@ -1,0 +1,50 @@
+{"id":"bv-neg-01","type":"negative","query":"What time is the next train to Vilnius?"}
+{"id":"bv-neg-02","type":"negative","query":"Convert 72 Fahrenheit to Celsius"}
+{"id":"bv-neg-03","type":"negative","query":"Write me a limerick about debugging"}
+{"id":"bv-neg-04","type":"negative","query":"How do I debounce an input in React?"}
+{"id":"bv-neg-05","type":"negative","query":"Fix the flaky Jest snapshot for the header"}
+{"id":"bv-neg-06","type":"negative","query":"npm install is hanging on optional dependencies"}
+{"id":"bv-neg-07","type":"negative","query":"ok thanks"}
+{"id":"bv-neg-08","type":"negative","query":"continue"}
+{"id":"bv-neg-09","type":"negative","query":"status?"}
+{"id":"bv-neg-10","type":"negative","query":"Is the build still running in the dashboard?"}
+{"id":"bv-neg-11","type":"negative","query":"The test suite is green on the PR"}
+{"id":"bv-neg-12","type":"negative","query":"Release notes for version 3.2 look fine"}
+{"id":"bv-neg-13","type":"negative","query":"Factory production line throughput improved this quarter"}
+{"id":"bv-neg-14","type":"negative","query":"Green tea reduces inflammation according to that paper"}
+{"id":"bv-neg-15","type":"negative","query":"Deploy the marketing site preview to the staging CDN"}
+{"id":"bv-neg-16","type":"negative","query":"Who owns the release checklist in Notion?"}
+{"id":"bv-neg-17","type":"negative","query":"Update the README badges after the build"}
+{"id":"bv-neg-18","type":"negative","query":"Rename the primary CTA on the pricing page"}
+{"id":"bv-neg-19","type":"negative","query":"Sync Figma spacing tokens into the design system"}
+{"id":"bv-neg-20","type":"negative","query":"Schedule a 1:1 to discuss career goals"}
+{"id":"bv-neg-21","type":"negative","query":"Why is Postgres using so much disk?"}
+{"id":"bv-neg-22","type":"negative","query":"Translate this error message to Lithuanian"}
+{"id":"bv-neg-23","type":"negative","query":"The integration environment looks healthy"}
+{"id":"bv-neg-24","type":"negative","query":"Ship the newsletter draft by Friday"}
+{"id":"bv-neg-25","type":"negative","query":"Can you review my pull request comments?"}
+{"id":"bv-neg-26","type":"negative","query":"path"}
+{"id":"bv-neg-27","type":"negative","query":"approval"}
+{"id":"bv-neg-28","type":"negative","query":"In Project Z, which greeting string should the bot use?"}
+{"id":"bv-neg-29","type":"negative","query":"Production capacity planning for the warehouse"}
+{"id":"bv-neg-30","type":"negative","query":"The pipeline failed on the lint stage"}
+{"id":"bv-pos-01","type":"positive","query":"Am I allowed to ship this build to production right now?"}
+{"id":"bv-pos-02","type":"positive","query":"Do we need written approval before a production deploy?"}
+{"id":"bv-pos-03","type":"positive","query":"Wipe persisted customer records from the bank overnight — ok?"}
+{"id":"bv-pos-04","type":"positive","query":"For product-lane Python, should new path code use pathlib?"}
+{"id":"bv-pos-05","type":"positive","query":"Please keep explanations concise with no opening paragraph"}
+{"id":"bv-pos-06","type":"positive","query":"Promote to production only after explicit approval, right?"}
+{"id":"bv-pos-07","type":"positive","query":"pathlib versus os.path for fresh product path helpers"}
+{"id":"bv-pos-08","type":"positive","query":"Destructive delete of user data needs confirmation — confirm the lock"}
+{"id":"bv-pos-09","type":"positive","query":"Current taste: concise answers, skip the intro"}
+{"id":"bv-pos-10","type":"positive","query":"Never auto-ship to production without asking first"}
+{"id":"bv-par-01","type":"positive","query":"Is silent overnight deletion of persisted users forbidden?"}
+{"id":"bv-par-02","type":"positive","query":"Which path library is preferred in our Python product code?"}
+{"id":"bv-scope-01","type":"negative","query":"Project B onboarding copy for the empty state"}
+{"id":"bv-scope-02","type":"positive","query":"In Project A, what greeting phrase do we use?"}
+{"id":"bv-short-01","type":"negative","query":"green"}
+{"id":"bv-short-02","type":"negative","query":"production"}
+{"id":"bv-short-03","type":"ambiguous","query":"deploy"}
+{"id":"bv-short-04","type":"ambiguous","query":"delete"}
+{"id":"bv-mix-01","type":"negative","query":"The release branch is green after the nightly build"}
+{"id":"bv-mix-02","type":"negative","query":"Document production incidents in the runbook"}

@@ -1,0 +1,42 @@
+{
+  "schema": "8811.setup_health.v1",
+  "note": "HTTP health is debug verification that :8812 is live; normal buyer path is MCP 8812-product after host reload.",
+  "checkout": {
+    "product": "8812-product",
+    "port": 8812,
+    "checkout_sha": "b20e192032c4f97737cd3e1776279253e1da4068",
+    "tree_fingerprint": "6b14f46ff9600804",
+    "guidance_api_sha16": "e01edac39a679f72",
+    "started_at": "2026-08-19T16:24:34Z",
+    "not_desk_port": 8811
+  },
+  "running_health_build": {
+    "product": "8812-product",
+    "port": 8812,
+    "checkout_sha": "8b2b6186ce03ef476f47549e66c7866d5f168f02",
+    "tree_fingerprint": "6b14f46ff9600804",
+    "guidance_api_sha16": "e01edac39a679f72",
+    "started_at": "2026-08-19T16:09:00Z",
+    "not_desk_port": 8811
+  },
+  "build_compare": {
+    "status": "current",
+    "stale": false,
+    "checkout": {
+      "checkout_sha": "b20e192032c4f97737cd3e1776279253e1da4068",
+      "tree_fingerprint": "6b14f46ff9600804",
+      "guidance_api_sha16": "e01edac39a679f72"
+    },
+    "running": {
+      "checkout_sha": "8b2b6186ce03ef476f47549e66c7866d5f168f02",
+      "tree_fingerprint": "6b14f46ff9600804",
+      "guidance_api_sha16": "e01edac39a679f72",
+      "started_at": "2026-08-19T16:09:00Z"
+    },
+    "human": "Running :8812 build matches this checkout product tree.",
+    "recommend_restart": false
+  },
+  "mcp_name": "8812-product",
+  "product_port": 8812,
+  "not_desk_port": 8811
+}

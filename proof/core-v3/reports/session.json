@@ -1,0 +1,69 @@
+[
+  {
+    "id": "sess-01",
+    "query": "Should Windows Search be used in normal CORE recall?",
+    "hit_ids": [],
+    "empty": true
+  },
+  {
+    "id": "sess-02",
+    "query": "Validate CORE relevance gates for false positives",
+    "hit_ids": [],
+    "empty": true
+  },
+  {
+    "id": "sess-03",
+    "query": "Do not add the workspace to Windows indexing",
+    "hit_ids": [],
+    "empty": true
+  },
+  {
+    "id": "sess-04",
+    "query": "What is 17 times 19?",
+    "hit_ids": [],
+    "empty": true
+  },
+  {
+    "id": "sess-05",
+    "query": "Rename the checkout button on the landing page",
+    "hit_ids": [],
+    "empty": true
+  },
+  {
+    "id": "sess-06",
+    "query": "Never deploy to production without explicit approval \u00e2\u20ac\u201d still active?",
+    "hit_ids": [
+      "rec-active-deploy-approval",
+      "rec-active-unrelated-pasta"
+    ],
+    "empty": false
+  },
+  {
+    "id": "sess-07",
+    "query": "Prefer pathlib over os.path for new Python product-lane paths",
+    "hit_ids": [
+      "rec-active-python-pathlib"
+    ],
+    "empty": false
+  },
+  {
+    "id": "sess-08",
+    "query": "Commit and push the bake-off reports",
+    "hit_ids": [],
+    "empty": true
+  },
+  {
+    "id": "sess-09",
+    "query": "How do I center a div in CSS?",
+    "hit_ids": [],
+    "empty": true
+  },
+  {
+    "id": "sess-10",
+    "query": "CI is green \u00e2\u20ac\u201d may I promote to production?",
+    "hit_ids": [
+      "rec-active-deploy-approval"
+    ],
+    "empty": false
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "proof_version": 3,
+  "method": "idf_plus_min_exact_support_abstention",
+  "llm_in_ranker": false,
+  "embeddings_required": false,
+  "semantic_local_enabled": false,
+  "semantic_api_enabled": false,
+  "windows_search": {
+    "retrieval": "closed",
+    "doctor": "diagnostics_only",
+    "recommended": "ignore"
+  },
+  "rules": [
+    "No full-blob substring match (token/segment exact + controlled stem)",
+    "IDF-weighted overlap with IDF cap",
+    "Deploy/delete action+gate collocation (content verbs, not key prefix alone)",
+    "Project-mention scope gate",
+    "Kind tiebreak: lock > standard > taste",
+    "Abstention: require >=2 independent exact supports OR action+gate agreement with >=1 support",
+    "If query has deploy/delete action, records lacking that action in content are dropped",
+    "Prefer empty recall over weak single-noun hits"
+  ],
+  "known_limit": {
+    "id": "pos-style-001",
+    "class": "single_cue_taste_abstention",
+    "note": "Weak single-cue taste paraphrases may abstain by design"
+  },
+  "no_benchmark_phrase_hacks": true,
+  "source_module": "dimensional_agent/product/guidance_api.py",
+  "private_repo_commits": {
+    "abstention_gate": "67723ddb",
+    "gate_validation": "0aed68f0",
+    "fp_harden_suite": "a7e6dd94",
+    "workspace_head_at_publish": "de4d128a8733afd915e73c9a6407f41ce7b3371c"
+  }
+}

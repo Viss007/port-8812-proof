@@ -1,0 +1,20 @@
+{"id":"ho-neg-trivia-math","type":"negative","query":"What is the square root of 144?"}
+{"id":"ho-neg-trivia-capitals","type":"negative","query":"What is the capital of Lithuania?"}
+{"id":"ho-neg-creative-story","type":"negative","query":"Write me a short bedtime story about a fox"}
+{"id":"ho-neg-unrelated-code","type":"negative","query":"How do I reverse a linked list in JavaScript?"}
+{"id":"ho-neg-unrelated-css","type":"negative","query":"Center a div both vertically and horizontally with CSS"}
+{"id":"ho-neg-vague-short-1","type":"negative","query":"ok"}
+{"id":"ho-neg-vague-short-2","type":"negative","query":"hmm"}
+{"id":"ho-neg-vague-short-3","type":"negative","query":"next"}
+{"id":"ho-neg-similar-vocab-ci","type":"negative","query":"Is the continuous integration pipeline green today?"}
+{"id":"ho-neg-one-token-deploy","type":"negative","query":"airport"}
+{"id":"ho-neg-one-token-lock","type":"negative","query":"locker room schedule"}
+{"id":"ho-neg-project-work","type":"negative","query":"Rename the checkout button label on the landing page"}
+{"id":"ho-neg-meeting","type":"negative","query":"Summarize yesterday standup notes for the team"}
+{"id":"ho-neg-weather","type":"negative","query":"Will it rain in Siauliai tomorrow?"}
+{"id":"ho-neg-shared-production","type":"negative","query":"Production of olive oil in Mediterranean climates"}
+{"id":"ho-pos-deploy","type":"positive","query":"May I push this release to production without waiting?"}
+{"id":"ho-pos-delete","type":"positive","query":"Should we wipe user rows from the guidance bank tonight?"}
+{"id":"ho-pos-pathlib","type":"positive","query":"New Python path joining in the product lane — which API?"}
+{"id":"ho-pos-style","type":"positive","query":"Keep the answer concise with no intro paragraph please"}
+{"id":"ho-pos-approval-phrase","type":"positive","query":"Need explicit approval before any production ship"}

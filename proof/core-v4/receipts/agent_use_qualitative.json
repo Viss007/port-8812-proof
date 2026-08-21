@@ -1,0 +1,21 @@
+{
+  "schema": "8811.agent_use.v1",
+  "label": "qualitative_real_use_not_universal_guarantee",
+  "session": "same Cursor/Cloud agent session as Continuity Loop + onboarding friction work",
+  "recorded_at": "2026-08-19T19:25:00+03:00",
+  "product_version": "1.0.0",
+  "observations": {
+    "setup_command_used": true,
+    "mcp_merged_without_clobber": true,
+    "stale_server_restarted": true,
+    "continuity_ssot_committed": true,
+    "guidance_recall_helped": true,
+    "eur49_software_verdict": "YES",
+    "verdict_scope": "software + Agent Kit only; ignores Stripe/checkout"
+  },
+  "not_claimed": [
+    "every agent always recalls",
+    "every model obeys",
+    "universal host guarantee"
+  ]
+}

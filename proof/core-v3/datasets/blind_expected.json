@@ -1,0 +1,92 @@
+{
+  "schema": "8811.guidance_fp.blind.v1",
+  "frozen_note": "Blind validation frozen BEFORE ranker edit. Do not retarget after scoring.",
+  "bank": "bank_seed.jsonl",
+  "queries": {
+    "bv-neg-01": {"expect_empty": true},
+    "bv-neg-02": {"expect_empty": true},
+    "bv-neg-03": {"expect_empty": true},
+    "bv-neg-04": {"expect_empty": true},
+    "bv-neg-05": {"expect_empty": true},
+    "bv-neg-06": {"expect_empty": true},
+    "bv-neg-07": {"expect_empty": true},
+    "bv-neg-08": {"expect_empty": true},
+    "bv-neg-09": {"expect_empty": true},
+    "bv-neg-10": {"expect_empty": true},
+    "bv-neg-11": {"expect_empty": true},
+    "bv-neg-12": {"expect_empty": true},
+    "bv-neg-13": {"expect_empty": true},
+    "bv-neg-14": {"expect_empty": true},
+    "bv-neg-15": {"expect_empty": true},
+    "bv-neg-16": {"expect_empty": true},
+    "bv-neg-17": {"expect_empty": true},
+    "bv-neg-18": {"expect_empty": true},
+    "bv-neg-19": {"expect_empty": true},
+    "bv-neg-20": {"expect_empty": true},
+    "bv-neg-21": {"expect_empty": true},
+    "bv-neg-22": {"expect_empty": true},
+    "bv-neg-23": {"expect_empty": true},
+    "bv-neg-24": {"expect_empty": true},
+    "bv-neg-25": {"expect_empty": true},
+    "bv-neg-26": {"expect_empty": true},
+    "bv-neg-27": {"expect_empty": true},
+    "bv-neg-28": {"expect_empty": true},
+    "bv-neg-29": {"expect_empty": true},
+    "bv-neg-30": {"expect_empty": true},
+    "bv-pos-01": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "must_not_return": ["rec-active-similar-wrong-ci-green", "rec-superseded-deploy-autopromote"]
+    },
+    "bv-pos-02": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "must_not_return": ["rec-active-similar-wrong-ci-green", "rec-superseded-deploy-autopromote"]
+    },
+    "bv-pos-03": {
+      "relevant_ids": ["rec-active-delete-confirm"],
+      "must_not_return": ["rec-retracted-autodelete"]
+    },
+    "bv-pos-04": {"relevant_ids": ["rec-active-python-pathlib"]},
+    "bv-pos-05": {
+      "relevant_ids": ["rec-active-style-concise"],
+      "must_not_return": ["rec-superseded-style-verbose"]
+    },
+    "bv-pos-06": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "must_not_return": ["rec-active-similar-wrong-ci-green", "rec-superseded-deploy-autopromote"]
+    },
+    "bv-pos-07": {"relevant_ids": ["rec-active-python-pathlib"]},
+    "bv-pos-08": {
+      "relevant_ids": ["rec-active-delete-confirm"],
+      "must_not_return": ["rec-retracted-autodelete"]
+    },
+    "bv-pos-09": {
+      "relevant_ids": ["rec-active-style-concise"],
+      "must_not_return": ["rec-superseded-style-verbose"]
+    },
+    "bv-pos-10": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "must_not_return": ["rec-active-similar-wrong-ci-green", "rec-superseded-deploy-autopromote"]
+    },
+    "bv-par-01": {
+      "relevant_ids": ["rec-active-delete-confirm"],
+      "must_not_return": ["rec-retracted-autodelete"]
+    },
+    "bv-par-02": {"relevant_ids": ["rec-active-python-pathlib"]},
+    "bv-scope-01": {"expect_empty": true},
+    "bv-scope-02": {"relevant_ids": ["rec-active-project-a-tone"]},
+    "bv-short-01": {"expect_empty": true},
+    "bv-short-02": {"expect_empty": true},
+    "bv-short-03": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "allow_empty": true,
+      "must_not_return": ["rec-active-similar-wrong-ci-green", "rec-superseded-deploy-autopromote"]
+    },
+    "bv-short-04": {
+      "relevant_ids": ["rec-active-delete-confirm"],
+      "allow_empty": true,
+      "must_not_return": ["rec-retracted-autodelete"]
+    },
+    "bv-mix-01": {"expect_empty": true},
+    "bv-mix-02": {"expect_empty": true}
+  }
+}

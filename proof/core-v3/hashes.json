@@ -1,0 +1,16 @@
+{
+  "proof_version": 3,
+  "algorithm": "SHA-256",
+  "note": "Full hex digests of frozen CORE guidance FP datasets. Short 12-char prefixes appear in score reports.",
+  "datasets": {
+    "bank_seed.jsonl": "B4A8DB89A939D7253CF57C3A277347E03C9F23E7870590EFE6C02AB24234370D",
+    "original_queries.jsonl": "818795A2F53D1A83BCE03D065FA0404FB6B5236E0A5190F9BE3467B334649FB6",
+    "original_expected.json": "51AE26972649424D738C8786EC6919A006176E14AFA025E371BDF462EC6D07B0",
+    "error_analysis_queries.jsonl": "9F03374C0AD1D6652EC76DBC74AA9F31BCDE06BDE5C125AB95211381B1441F65",
+    "error_analysis_expected.json": "AB01501A03CD4368F33D00B005F9F68D0139ED9B9D977B6405207E66E5DA82B5",
+    "blind_queries.jsonl": "7BB18FA581C6D928CCE90950744447D23A749FB3A606AA21415E5F52EDEE16D6",
+    "blind_expected.json": "E8FE1032047DE65E7F57A39E4850A98E1EEF6F7006CEC445BBFD1BAE6D4F418A"
+  },
+  "blind_frozen_before_scoring": true,
+  "error_analysis_was_held_out_then_reclassified": true
+}

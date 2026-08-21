@@ -1,0 +1,7 @@
+{
+  "test": "test_stress_1000_mixed_ops",
+  "ops": 1000,
+  "passed": true,
+  "junit": "receipts/pytest-junit.xml",
+  "notes": "Mixed commit/recall/supersede/deactivate under 8 threads. Valid JSON, one active per key+scope, deterministic recall after."
+}

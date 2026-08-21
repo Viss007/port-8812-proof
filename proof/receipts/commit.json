@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "record": {
+    "record_id": "44965feb-44e0-4442-828b-b0d82f93182a",
+    "key": "deployment.production-approval",
+    "kind": "lock",
+    "scope": {
+      "type": "global",
+      "id": "developer"
+    },
+    "status": "active",
+    "content": "Never deploy to production without explicit approval.",
+    "effective_at": "2026-08-19T08:56:31Z",
+    "updated_at": "2026-08-19T08:56:31Z",
+    "supersedes": null,
+    "durability": "durable",
+    "source": {
+      "type": "explicit_user_statement",
+      "receipt": "Never deploy without asking me first."
+    },
+    "schema": "8811.guidance.v1"
+  }
+}

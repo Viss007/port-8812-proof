@@ -1,0 +1,10 @@
+{
+  "schema": "8811.agent_eval.summary.v1",
+  "status": "not_proved",
+  "reason": "No live Cursor session with product MCP on 127.0.0.1:8812 was executed for this pack. Causal suite remains a stub model.",
+  "recall_call_rate": null,
+  "correct_retrieval_rate": null,
+  "obedience_given_correct_recall": null,
+  "acted_before_recall_count": null,
+  "n_runs": 0
+}

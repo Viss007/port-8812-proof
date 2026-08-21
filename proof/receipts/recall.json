@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "recall_status": "ok",
+  "query": "deploy to production now",
+  "hits": [
+    {
+      "record_id": "44965feb-44e0-4442-828b-b0d82f93182a",
+      "key": "deployment.production-approval",
+      "kind": "lock",
+      "status": "active",
+      "scope": {
+        "type": "global",
+        "id": "developer"
+      },
+      "content": "Never deploy to production without explicit approval.",
+      "score": 4.4,
+      "score_overlap": 4
+    }
+  ],
+  "ranking_trace": {
+    "active_candidates": 1,
+    "method": "idf_token_overlap_then_durable_then_updated_at_then_id",
+    "llm": false
+  }
+}

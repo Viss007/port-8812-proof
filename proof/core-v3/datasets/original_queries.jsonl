@@ -1,0 +1,17 @@
+{"id":"pos-deploy-001","type":"positive","query":"Should I deploy this build to production now?"}
+{"id":"pos-style-001","type":"positive","query":"How should explanations be written for implementation notes?"}
+{"id":"pos-pathlib-001","type":"positive","query":"For new Python product-lane path logic, pathlib or os.path?"}
+{"id":"pos-delete-001","type":"positive","query":"Can I delete persisted user data from the bank overnight?"}
+{"id":"pos-multi-001","type":"positive","query":"Deploy production approval and concise explanation style"}
+{"id":"sim-wrong-001","type":"similar_wrong","query":"CI is green — auto-promote to production?"}
+{"id":"short-001","type":"short_ambiguous","query":"deploy"}
+{"id":"short-002","type":"short_ambiguous","query":"path"}
+{"id":"short-003","type":"short_ambiguous","query":"delete"}
+{"id":"neg-trivia-001","type":"negative_trivia","query":"What is 17 times 19?"}
+{"id":"neg-trivia-002","type":"negative_trivia","query":"Write a haiku about autumn rain"}
+{"id":"neg-unrelated-001","type":"negative_domain","query":"How do I salt pasta water before boiling?"}
+{"id":"neg-scope-001","type":"negative_scope","query":"In Project B, what greeting phrase should I use?"}
+{"id":"inactive-super-001","type":"inactive_leak","query":"Use verbose explanations by default with an introductory paragraph"}
+{"id":"inactive-retract-001","type":"inactive_leak","query":"Silently delete stale user data during nightly cleanup"}
+{"id":"inactive-test-001","type":"inactive_leak","query":"smoke-probe-abc123 deploy production approval"}
+{"id":"inactive-meta-001","type":"inactive_leak","query":"THIS WAKE build sequence leftover deploy asking"}

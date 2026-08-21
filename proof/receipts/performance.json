@@ -1,0 +1,46 @@
+{
+  "sizes": [
+    {
+      "n": 100,
+      "bank_bytes": 78556,
+      "fill_s": 0.0033524999998917338,
+      "reload_s": 0.000638799999251205,
+      "recall_median_ms": 1.3721000000259664,
+      "recall_p95_ms": 1.5188999996098573,
+      "commit_median_ms": 3.77985000022818,
+      "commit_p95_ms": 4.595999999764899,
+      "deactivate_median_ms": 3.6970999999539345,
+      "deactivate_p95_ms": 4.3474000003698166
+    },
+    {
+      "n": 1000,
+      "bank_bytes": 623056,
+      "fill_s": 0.020691599999736354,
+      "reload_s": 0.00231179999991582,
+      "recall_median_ms": 12.703050000254734,
+      "recall_p95_ms": 14.162899999973888,
+      "commit_median_ms": 19.889449999482167,
+      "commit_p95_ms": 24.4314999999915,
+      "deactivate_median_ms": 19.263600000158476,
+      "deactivate_p95_ms": 23.307200000090234
+    },
+    {
+      "n": 10000,
+      "bank_bytes": 6095056,
+      "fill_s": 0.20408620000034716,
+      "reload_s": 0.02473310000004858,
+      "recall_median_ms": 140.9678499999245,
+      "recall_p95_ms": 160.16059999947174,
+      "commit_median_ms": 194.83989999980622,
+      "commit_p95_ms": 212.91389999987587,
+      "deactivate_median_ms": 188.14544999986538,
+      "deactivate_p95_ms": 204.5010000001639
+    }
+  ],
+  "server_startup": {
+    "port": 63283,
+    "ok": true,
+    "health_ready_s": 0.5438356000004205,
+    "note": "subprocess product_server until first health 200; isolated bank; not desk 8811"
+  }
+}

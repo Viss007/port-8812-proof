@@ -1,0 +1,178 @@
+[
+  {
+    "claim": "Port 8812 software release 1.0.0 (Continuity Core) is frozen with 53 product_acceptance tests passed.",
+    "status": "proved",
+    "mechanism": "pytest dimensional_agent/tests/product_acceptance on private product tip",
+    "test": "pytest -q dimensional_agent/tests/product_acceptance",
+    "receipt": "core-v4/receipts/product_acceptance-53.txt",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "Buyer agent setup is one command after bootstrap: python -m dimensional_agent.product.cli setup.",
+    "status": "proved",
+    "mechanism": "cli setup merges 8812-product MCP, starts/restarts stale :8812 server, sets reload_mcp_required only when mcp.json changed",
+    "test": "test_onboarding_setup.py + live setup receipt",
+    "receipt": "core-v4/receipts/setup_health.json",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "MCP onboard/setup merges 8812-product without clobbering other mcpServers; URL is 127.0.0.1:8812.",
+    "status": "proved",
+    "mechanism": "_merge_product_mcp preserves other servers",
+    "test": "test_setup_merges_mcp_and_sets_reload_flag / test_onboard_merge_does_not_clobber_other_servers",
+    "receipt": "core-v4/RELEASE.md",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "Product health exposes build identity; doctor/setup detect stale running builds vs checkout tree_fingerprint.",
+    "status": "proved",
+    "mechanism": "product_build.build_info + compare_running; Start-8811Product.ps1 restart",
+    "test": "test_product_build_fingerprint_stable",
+    "receipt": "core-v4/receipts/setup_health.json",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "Buyer path is MCP 8812-product on port 8812 only; desk :8811 / pre_hook are not the product habit.",
+    "status": "proved",
+    "mechanism": "CONTINUITY.md + AGENTS.md + buyer file tests",
+    "test": "test_buyer_files_point_only_to_product_8812",
+    "receipt": "core-v4/RELEASE.md",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "Continuity Loop: durable commit then later sharp recall (or abstention); 8811 is durable guidance not PLAN/scratch.",
+    "status": "proved",
+    "mechanism": "docs/CONTINUITY.md + Agent Kit habit files",
+    "test": "test_continuity_ssot_exists_and_boundaries",
+    "receipt": "core-v4/RELEASE.md",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "CORE ranker is deterministic code with abstention; no LLM in ranker; no embeddings required.",
+    "status": "proved",
+    "mechanism": "idf_plus_min_exact_support_abstention; llm_judgment false",
+    "test": "product_acceptance + core-v3 ranker_config",
+    "receipt": "core-v3/ranker_config.json",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "Blind guidance validation: 0/35 false positives, 0/15 misses, determinism true; expected frozen before scoring.",
+    "status": "proved",
+    "mechanism": "Frozen blind set + score_blind.py",
+    "test": "benchmark/guidance_fp/score_blind.py",
+    "receipt": "core-v3/reports/blind.json",
+    "run_id": "proof-v3-20260819"
+  },
+  {
+    "claim": "Qualitative real-session agent use: setup path works; Continuity Loop used; agent EUR49 software verdict YES (not a universal guarantee).",
+    "status": "proved",
+    "mechanism": "Same-session real work observations",
+    "test": "manual observation receipt",
+    "receipt": "core-v4/receipts/agent_use_qualitative.json",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "Product HTTP health on 127.0.0.1:8812 returns status ok (stranger clean-machine pack).",
+    "status": "proved",
+    "mechanism": "POST /api/dimensional action=health",
+    "test": "Prove-8811Product.ps1 health step",
+    "receipt": "receipts/health.json",
+    "run_id": "proof-v2-20260819-115609"
+  },
+  {
+    "claim": "guidance_commit stores a lock and guidance_recall returns it; survives restart on same bank.",
+    "status": "proved",
+    "mechanism": "Filesystem JSON bank",
+    "test": "Prove-8811Product.ps1 commit/recall/restart",
+    "receipt": "receipts/restart-recall.json",
+    "run_id": "proof-v2-20260819-115609"
+  },
+  {
+    "claim": "MCP tools/list is exactly four tools: health, guidance_commit, guidance_recall, guidance_deactivate.",
+    "status": "proved",
+    "mechanism": "stdio MCP bridge",
+    "test": "mcp_smoke.py",
+    "receipt": "receipts/mcp-tools.json",
+    "run_id": "proof-v2-20260819-115609"
+  },
+  {
+    "claim": "1000 mixed concurrent bank operations left valid JSON.",
+    "status": "proved",
+    "mechanism": "path-scoped RLock + atomic replace",
+    "test": "test_stress_1000_mixed_ops",
+    "receipt": "receipts/stress.json",
+    "run_id": "proof-v2-20260819-115609"
+  },
+  {
+    "claim": "Fixed labeled recall benchmark 8811.recall.bench.v1 top-1=0.9390 (n=164); not a live Cursor number.",
+    "status": "proved",
+    "mechanism": "Published labeled dataset + code ranker",
+    "test": "benchmark_run",
+    "receipt": "benchmark/summary.json",
+    "run_id": "proof-v2-20260819-115609"
+  },
+  {
+    "claim": "Every agent always calls guidance_recall.",
+    "status": "not_proved",
+    "mechanism": "Habit is instructed, not enforced",
+    "test": "none",
+    "receipt": "core-v4/receipts/agent_use_qualitative.json",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "Every model always obeys recalled guidance.",
+    "status": "not_proved",
+    "mechanism": "No obedience enforcer",
+    "test": "none",
+    "receipt": "agent-evals/summary.json",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "8811 automatically intercepts the editor or forces recall/obedience.",
+    "status": "not_proved",
+    "mechanism": "No interceptor / shock collar in SKU",
+    "test": "none",
+    "receipt": "agent-evals/summary.json",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "Endless memory.",
+    "status": "not_proved",
+    "mechanism": "Product promise explicitly denies this",
+    "test": "none",
+    "receipt": "core-v4/RELEASE.md",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "LOCAL/API semantic embedding profiles are earned for buyer SKU.",
+    "status": "not_proved",
+    "mechanism": "Flags remain false; not in SKU",
+    "test": "sku flags / ranker_config",
+    "receipt": "core-v3/ranker_config.json",
+    "run_id": "proof-v4-20260819"
+  },
+  {
+    "claim": "120 real-model calls.",
+    "status": "withdrawn",
+    "mechanism": "never earned",
+    "test": "none",
+    "receipt": "run.json",
+    "run_id": "proof-v2-20260819-115609"
+  },
+  {
+    "claim": "90% relevant-guidance recall as a live-model Cursor number.",
+    "status": "withdrawn",
+    "mechanism": "never earned",
+    "test": "none",
+    "receipt": "run.json",
+    "run_id": "proof-v2-20260819-115609"
+  },
+  {
+    "claim": "10% control → 90% with 8811.",
+    "status": "withdrawn",
+    "mechanism": "causal suite stub",
+    "test": "test_causal_eval_suite.py",
+    "receipt": "run.json",
+    "run_id": "proof-v2-20260819-115609"
+  }
+]

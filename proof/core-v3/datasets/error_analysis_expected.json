@@ -1,0 +1,41 @@
+{
+  "schema": "8811.guidance_fp.held_out.v1",
+  "frozen_note": "Held-out expectations frozen BEFORE scoring. Do not retune ranker after results.",
+  "bank": "bank_seed.jsonl",
+  "queries": {
+    "ho-neg-trivia-math": {"expect_empty": true},
+    "ho-neg-trivia-capitals": {"expect_empty": true},
+    "ho-neg-creative-story": {"expect_empty": true},
+    "ho-neg-unrelated-code": {"expect_empty": true},
+    "ho-neg-unrelated-css": {"expect_empty": true},
+    "ho-neg-vague-short-1": {"expect_empty": true},
+    "ho-neg-vague-short-2": {"expect_empty": true},
+    "ho-neg-vague-short-3": {"expect_empty": true},
+    "ho-neg-similar-vocab-ci": {"expect_empty": true},
+    "ho-neg-one-token-deploy": {"expect_empty": true},
+    "ho-neg-one-token-lock": {"expect_empty": true},
+    "ho-neg-project-work": {"expect_empty": true},
+    "ho-neg-meeting": {"expect_empty": true},
+    "ho-neg-weather": {"expect_empty": true},
+    "ho-neg-shared-production": {"expect_empty": true},
+    "ho-pos-deploy": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "must_not_return": ["rec-superseded-deploy-autopromote", "rec-active-similar-wrong-ci-green"]
+    },
+    "ho-pos-delete": {
+      "relevant_ids": ["rec-active-delete-confirm"],
+      "must_not_return": ["rec-retracted-autodelete"]
+    },
+    "ho-pos-pathlib": {
+      "relevant_ids": ["rec-active-python-pathlib"]
+    },
+    "ho-pos-style": {
+      "relevant_ids": ["rec-active-style-concise"],
+      "must_not_return": ["rec-superseded-style-verbose"]
+    },
+    "ho-pos-approval-phrase": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "must_not_return": ["rec-superseded-deploy-autopromote"]
+    }
+  }
+}

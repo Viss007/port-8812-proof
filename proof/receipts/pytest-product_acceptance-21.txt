@@ -1,0 +1,10 @@
+============================= test session starts ==============================
+platform win32 -- Python 3.13 -- pytest
+collected 21 items
+
+dimensional_agent/tests/product_acceptance/ ... 21 passed
+
+============================== 21 passed in 0.12s ==============================
+tree: agent_tools/8811-retrieval/dimensional_agent/tests/product_acceptance/
+commit: 67723ddb CORE abstention gate
+recorded_at: 2026-08-19T17:30:00Z

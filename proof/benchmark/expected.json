@@ -1,0 +1,1824 @@
+[
+  {
+    "id": "A1",
+    "category": "A_exact",
+    "query": "Never deploy to production without explicit operator approval.",
+    "expected_top1": "66983977-ae22-502d-9953-f2dfa685b26f",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "A2",
+    "category": "A_exact",
+    "query": "Always write tests for new ranking or bank logic.",
+    "expected_top1": "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "A3",
+    "category": "A_exact",
+    "query": "MCP tools are exactly health, guidance_commit, guidance_recall, guidance_deactivate.",
+    "expected_top1": "62ba2a2c-7a0a-574b-9baf-16cba515794f",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "A4",
+    "category": "A_exact",
+    "query": "Run ruff on changed Python files before claiming a patch is clean.",
+    "expected_top1": "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "A5",
+    "category": "A_exact",
+    "query": "Bind the product server to 127.0.0.1 not 0.0.0.0.",
+    "expected_top1": "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B1",
+    "category": "B_paraphrase",
+    "query": "Can I ship to prod right now without asking?",
+    "expected_top1": "66983977-ae22-502d-9953-f2dfa685b26f",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B2",
+    "category": "B_paraphrase",
+    "query": "Should I write tests when I change ranking?",
+    "expected_top1": "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B3",
+    "category": "B_paraphrase",
+    "query": "Is ranking done by another model?",
+    "expected_top1": "c6ff40da-2e98-5944-a577-f3f699921497",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B4",
+    "category": "B_paraphrase",
+    "query": "Wire hooks into 8811 for me.",
+    "expected_top1": "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B5",
+    "category": "B_paraphrase",
+    "query": "Paste the openai key in this chat.",
+    "expected_top1": "bc8414e1-0429-5504-84ce-abb9126af79a",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B6",
+    "category": "B_paraphrase",
+    "query": "Commit these files to git.",
+    "expected_top1": "8b5f3050-615f-5c60-8c2d-c32526896c43",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B7",
+    "category": "B_paraphrase",
+    "query": "A video of the agent stopping is enough proof.",
+    "expected_top1": "194963cb-65b7-580c-9e6b-15ec813e1d5e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B8",
+    "category": "B_paraphrase",
+    "query": "Use SQLite for the clean-room bank.",
+    "expected_top1": "3d642301-f764-588d-8439-6629bc27d8cf",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C1",
+    "category": "C_short",
+    "query": "ruff",
+    "expected_top1": "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C2",
+    "category": "C_short",
+    "query": "mypy",
+    "expected_top1": "84edb58c-0e83-50a5-98a5-ec15670740bf",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C3",
+    "category": "C_short",
+    "query": "8812",
+    "expected_top1": "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C4",
+    "category": "C_short",
+    "query": "Qdrant",
+    "expected_top1": "39096067-ca55-5574-9868-174e6c02c4b6",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C5",
+    "category": "C_short",
+    "query": "magenta",
+    "expected_top1": "ac62445b-9fdd-5cbe-ac81-9f9d77efc715",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "D1",
+    "category": "D_long",
+    "query": "I am about to change how the filesystem bank writes JSON while the HTTP server is threaded. What is the required write behavior?",
+    "expected_top1": "6753b9f9-3853-5ec7-8314-38d527650c99",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "D2",
+    "category": "D_long",
+    "query": "Buyer asks how to wipe a demo bank safely versus their real guidance. What is allowed?",
+    "expected_top1": "f0a6edfa-4552-5797-8366-2262677a58df",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "D3",
+    "category": "D_long",
+    "query": "Starting the public HTTP process for the database-backed API \u2014 what must happen first?",
+    "expected_top1": "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "D4",
+    "category": "D_long",
+    "query": "Need to connect Cursor MCP to this product. Which four tools exist?",
+    "expected_top1": "62ba2a2c-7a0a-574b-9baf-16cba515794f",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "E1",
+    "category": "E_similar_wrong",
+    "query": "Which framework does Project Alpha use for public HTTP?",
+    "expected_top1": "ef9603a3-6dcb-5325-a1b1-9007902714bb",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": [
+      "fdf75d42-71ff-54d5-9cd3-ae55548f37dd"
+    ]
+  },
+  {
+    "id": "E2",
+    "category": "E_similar_wrong",
+    "query": "Which framework does Project Beta use for public HTTP?",
+    "expected_top1": "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": [
+      "ef9603a3-6dcb-5325-a1b1-9007902714bb"
+    ]
+  },
+  {
+    "id": "E3",
+    "category": "E_similar_wrong",
+    "query": "Format Python with black using the repo default line length.",
+    "expected_top1": "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": [
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011"
+    ]
+  },
+  {
+    "id": "F1",
+    "category": "F_negative",
+    "query": "What is 2+2?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F2",
+    "category": "F_negative",
+    "query": "Capital of Lithuania?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F3",
+    "category": "F_negative",
+    "query": "Explain merge sort briefly.",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F4",
+    "category": "F_negative",
+    "query": "Who wrote Hamlet?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F5",
+    "category": "F_negative",
+    "query": "Convert 10 miles to km.",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F6",
+    "category": "F_negative",
+    "query": "Name three primary colors.",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F7",
+    "category": "F_negative",
+    "query": "What day follows Monday?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F8",
+    "category": "F_negative",
+    "query": "Is water H2O?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F9",
+    "category": "F_negative",
+    "query": "Define a prime number.",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F10",
+    "category": "F_negative",
+    "query": "What is HTTP status 418 teapot history in cafes unrelated to this bank?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F11",
+    "category": "F_negative",
+    "query": "Weather in Tokyo tomorrow?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F12",
+    "category": "F_negative",
+    "query": "Recipe for pancakes?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F13",
+    "category": "F_negative",
+    "query": "How many moons does Mars have?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F14",
+    "category": "F_negative",
+    "query": "Translate hello to Japanese.",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F15",
+    "category": "F_negative",
+    "query": "Who won the 1998 world cup?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F16",
+    "category": "F_negative",
+    "query": "What color is the sky at noon?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F17",
+    "category": "F_negative",
+    "query": "List European countries starting with Z.",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F18",
+    "category": "F_negative",
+    "query": "Play a jazz standard on piano.",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F19",
+    "category": "F_negative",
+    "query": "How long is a marathon in yards?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F20",
+    "category": "F_negative",
+    "query": "Name a dinosaur from the jurassic.",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F21",
+    "category": "F_negative",
+    "query": "What is the boiling point of water at sea level in celsius?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F22",
+    "category": "F_negative",
+    "query": "Who painted the Mona Lisa?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F23",
+    "category": "F_negative",
+    "query": "How many sides does a hexagon have?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F24",
+    "category": "F_negative",
+    "query": "What is the currency of Japan?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F25",
+    "category": "F_negative",
+    "query": "Name the largest ocean on earth.",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F26",
+    "category": "F_negative",
+    "query": "When is the summer solstice in the northern hemisphere?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F27",
+    "category": "F_negative",
+    "query": "What instrument has 88 keys?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F28",
+    "category": "F_negative",
+    "query": "How fast is the speed of light in vacuum roughly?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F29",
+    "category": "F_negative",
+    "query": "Who discovered penicillin?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "F30",
+    "category": "F_negative",
+    "query": "What planet is known as the red planet?",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": true,
+    "forbidden": null
+  },
+  {
+    "id": "G1",
+    "category": "G_superseded",
+    "query": "deploy by copying files over SSH without a ticket",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": [
+      "b42558f3-d5eb-51e3-bad3-a89fc9d79cf4"
+    ]
+  },
+  {
+    "id": "H1",
+    "category": "H_retracted",
+    "query": "comic sans for all operator replies",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": [
+      "f6f65433-492c-58ff-a249-a32bd459ea55"
+    ]
+  },
+  {
+    "id": "I1",
+    "category": "I_test",
+    "query": "Smoke probe record must not influence ranking.",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": [
+      "b9f55821-6c09-522c-b366-e1bc13bc5928"
+    ]
+  },
+  {
+    "id": "J1",
+    "category": "J_plan_meta",
+    "query": "THIS WAKE leftover sequence item foo.",
+    "expected_top1": null,
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": [
+      "809bcba6-f2ef-5605-b51d-24d173efbacb"
+    ]
+  },
+  {
+    "id": "K1",
+    "category": "K_durable_vs_recent",
+    "query": "how should we change ranking logic tests",
+    "expected_top1": "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": [
+      "6b32f9bd-9e73-53de-8a99-92ae238eb835"
+    ]
+  },
+  {
+    "id": "L1",
+    "category": "L_same_key",
+    "query": "clean-room bank storage choice JSON files",
+    "expected_top1": "3d642301-f764-588d-8439-6629bc27d8cf",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "M1",
+    "category": "M_scope",
+    "query": "public HTTP surface framework",
+    "expected_top1": null,
+    "expected_any": [
+      "ef9603a3-6dcb-5325-a1b1-9007902714bb",
+      "fdf75d42-71ff-54d5-9cd3-ae55548f37dd"
+    ],
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "N1",
+    "category": "N_ambiguous",
+    "query": "python formatting and lint",
+    "expected_top1": null,
+    "expected_any": [
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+      "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c"
+    ],
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B9",
+    "category": "B_paraphrase",
+    "query": "Need pytest when touching the bank.",
+    "expected_top1": "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B10",
+    "category": "B_paraphrase",
+    "query": "Do not speak on the phone app unless asked.",
+    "expected_top1": "78a32d38-e1c2-5b22-ba19-f33b29c6a725",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B11",
+    "category": "B_paraphrase",
+    "query": "Keep the pocket layout a phone column.",
+    "expected_top1": "0daaa433-6c01-56b3-b3f4-a25c42410ac9",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B12",
+    "category": "B_paraphrase",
+    "query": "Do not skip tests for a green ranking patch.",
+    "expected_top1": "2155d128-75c2-5f64-92c5-aa6e49b0db1b",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B13",
+    "category": "B_paraphrase",
+    "query": "Export the bank before wiping it.",
+    "expected_top1": "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B14",
+    "category": "B_paraphrase",
+    "query": "Check health before saying the server is up.",
+    "expected_top1": "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B15",
+    "category": "B_paraphrase",
+    "query": "Echo the query string unchanged.",
+    "expected_top1": "18dbff34-b2a1-5f0e-940a-85b05ba26723",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B16",
+    "category": "B_paraphrase",
+    "query": "Dead records must not leak into recall.",
+    "expected_top1": "be679620-3a8e-5fe5-83f5-6ebb0d09fc84",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B17",
+    "category": "B_paraphrase",
+    "query": "Same query same order.",
+    "expected_top1": "460c37ad-f489-509e-9cc2-9c86710cb613",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B18",
+    "category": "B_paraphrase",
+    "query": "Do not fake 10000-record scale.",
+    "expected_top1": "e0e853dd-385c-5463-b906-ec6232083385",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B19",
+    "category": "B_paraphrase",
+    "query": "Obedience is a different layer from recall.",
+    "expected_top1": "75f67a40-5407-5a0e-b24b-0550bd4a9107",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B20",
+    "category": "B_paraphrase",
+    "query": "Checkout path has spaces.",
+    "expected_top1": "d1449120-163a-5a4d-91b9-e4bf1280705c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B21",
+    "category": "B_paraphrase",
+    "query": "Need Python 3.11.",
+    "expected_top1": "b5d196cd-fed8-56d8-aafd-200dda342320",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B22",
+    "category": "B_paraphrase",
+    "query": "Only POST to /api/dimensional.",
+    "expected_top1": "00795571-1003-51e2-8a1f-0a480a7f90b2",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B23",
+    "category": "B_paraphrase",
+    "query": "Call him Viss.",
+    "expected_top1": "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B24",
+    "category": "B_paraphrase",
+    "query": "No public tunnel for the product.",
+    "expected_top1": "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B25",
+    "category": "B_paraphrase",
+    "query": "No embedding API in the ranker.",
+    "expected_top1": "62a427fc-8290-59d8-b36b-e269744218cb",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B26",
+    "category": "B_paraphrase",
+    "query": "Do not mix Godmode with stock Cursor.",
+    "expected_top1": "29482fd8-c277-54bd-840c-79cc2e01172c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B27",
+    "category": "B_paraphrase",
+    "query": "Stripe is out of this slice.",
+    "expected_top1": "5d816e23-b3f0-5493-bb75-f80964982ac4",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B28",
+    "category": "B_paraphrase",
+    "query": "WATCH is not a receipt.",
+    "expected_top1": "9131dc3f-d1b2-5c8f-80bd-767c001248ec",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B29",
+    "category": "B_paraphrase",
+    "query": "Reload MCP after mcp.json edits.",
+    "expected_top1": "6f572eae-e728-5c04-b217-78661f890a7e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B30",
+    "category": "B_paraphrase",
+    "query": "Two products cannot share one port.",
+    "expected_top1": "9d5ca113-09e1-5e65-b442-887de24e0a97",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B31",
+    "category": "B_paraphrase",
+    "query": "Timeout outbound HTTP at 30 seconds.",
+    "expected_top1": "39dde75d-5308-5542-b290-11c33b58db7e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B32",
+    "category": "B_paraphrase",
+    "query": "UTF-8 JSON bank with newline.",
+    "expected_top1": "b09dec25-b908-5473-97bb-e6277e45fc7b",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B33",
+    "category": "B_paraphrase",
+    "query": "Record ids are UUIDs.",
+    "expected_top1": "09790dc1-f31c-5513-a200-5f87c0a300e2",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B34",
+    "category": "B_paraphrase",
+    "query": "Default hit limit is six.",
+    "expected_top1": "4075b3a6-86f6-5c33-8162-05f62fe45abc",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B35",
+    "category": "B_paraphrase",
+    "query": "Empty bank needs calibration.",
+    "expected_top1": "6867da89-4d84-5ff9-a9f1-e6b48f7eefd7",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B36",
+    "category": "B_paraphrase",
+    "query": "Use pwsh for Windows launchers.",
+    "expected_top1": "33352067-9340-53a2-a031-d43f6cbee965",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B37",
+    "category": "B_paraphrase",
+    "query": "Bootstrap installs pytest.",
+    "expected_top1": "cfd5c6f0-2dcb-5a39-a921-b8baf58fe84c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B38",
+    "category": "B_paraphrase",
+    "query": "See LICENSE for the paid license.",
+    "expected_top1": "06c1ff2a-84b9-50a1-b168-6c16157637c2",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B39",
+    "category": "B_paraphrase",
+    "query": "Default CLI backup folder.",
+    "expected_top1": "6d23a9f1-df4a-516e-9c64-14688c156c12",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B40",
+    "category": "B_paraphrase",
+    "query": "Restore overwrites the live bank.",
+    "expected_top1": "92638491-805b-5965-b3d3-15c56aba427b",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B41",
+    "category": "B_paraphrase",
+    "query": "Fingerprint has sha256.",
+    "expected_top1": "378e359b-2345-59ca-a4d0-2d37d92177f4",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B42",
+    "category": "B_paraphrase",
+    "query": "Retracted and superseded rows stay out of normal recall.",
+    "expected_top1": "be679620-3a8e-5fe5-83f5-6ebb0d09fc84",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B43",
+    "category": "B_paraphrase",
+    "query": "Can I ship this to production without asking anyone?",
+    "expected_top1": "66983977-ae22-502d-9953-f2dfa685b26f",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B44",
+    "category": "B_paraphrase",
+    "query": "Overnight stay silent.",
+    "expected_top1": "3bc8010a-6afa-5e93-af11-1473f93dc64a",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B45",
+    "category": "B_paraphrase",
+    "query": "Do not zip the desk.",
+    "expected_top1": "ec1ad864-f087-55a6-a41a-f3038b776aad",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B46",
+    "category": "B_paraphrase",
+    "query": "No tokens in logs.",
+    "expected_top1": "b1bd18ad-f403-51d8-a9fe-04f20dfabd4e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B47",
+    "category": "B_paraphrase",
+    "query": "Use .venv python.",
+    "expected_top1": "edca559a-8f39-5bfc-bd45-d983fae4fb33",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B48",
+    "category": "B_paraphrase",
+    "query": "Call recall before acting.",
+    "expected_top1": "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B49",
+    "category": "B_paraphrase",
+    "query": "Locks versus taste.",
+    "expected_top1": "037be715-2fec-577d-b4bc-3c3edc483087",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B50",
+    "category": "B_paraphrase",
+    "query": "Public proof folder on the site repo.",
+    "expected_top1": "030611ae-e27a-507b-ba67-ec4d56c8efd3",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B51",
+    "category": "B_paraphrase",
+    "query": "Apply migrations before the API process.",
+    "expected_top1": "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B52",
+    "category": "B_paraphrase",
+    "query": "Do not claim PASS yourself.",
+    "expected_top1": "8d0604f7-0abd-576e-aa6e-a6270558f1ea",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B53",
+    "category": "B_paraphrase",
+    "query": "Keep answers short and plain.",
+    "expected_top1": "1dac1b2b-e018-5680-b1f5-c35cf376c819",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B54",
+    "category": "B_paraphrase",
+    "query": "Never deploy without approval.",
+    "expected_top1": "66983977-ae22-502d-9953-f2dfa685b26f",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B55",
+    "category": "B_paraphrase",
+    "query": "JSON files not SQLite for the bank.",
+    "expected_top1": "3d642301-f764-588d-8439-6629bc27d8cf",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B56",
+    "category": "B_paraphrase",
+    "query": "Hooks never call 8811.",
+    "expected_top1": "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B57",
+    "category": "B_paraphrase",
+    "query": "Product port is 8812.",
+    "expected_top1": "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B58",
+    "category": "B_paraphrase",
+    "query": "Atomic replace plus bak.",
+    "expected_top1": "6753b9f9-3853-5ec7-8314-38d527650c99",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B59",
+    "category": "B_paraphrase",
+    "query": "Demo role required to reset.",
+    "expected_top1": "f0a6edfa-4552-5797-8366-2262677a58df",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "B60",
+    "category": "B_paraphrase",
+    "query": "Cyan not magenta.",
+    "expected_top1": "ac62445b-9fdd-5cbe-ac81-9f9d77efc715",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C6",
+    "category": "C_short",
+    "query": "black",
+    "expected_top1": "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C7",
+    "category": "C_short",
+    "query": "FastAPI",
+    "expected_top1": "ef9603a3-6dcb-5325-a1b1-9007902714bb",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C8",
+    "category": "C_short",
+    "query": "Flask",
+    "expected_top1": "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C9",
+    "category": "C_short",
+    "query": "Stripe",
+    "expected_top1": "5d816e23-b3f0-5493-bb75-f80964982ac4",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C10",
+    "category": "C_short",
+    "query": "embeddings",
+    "expected_top1": "62a427fc-8290-59d8-b36b-e269744218cb",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C11",
+    "category": "C_short",
+    "query": "loopback",
+    "expected_top1": "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C12",
+    "category": "C_short",
+    "query": "sha256",
+    "expected_top1": "378e359b-2345-59ca-a4d0-2d37d92177f4",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C13",
+    "category": "C_short",
+    "query": "UUID",
+    "expected_top1": "09790dc1-f31c-5513-a200-5f87c0a300e2",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C14",
+    "category": "C_short",
+    "query": "pwsh",
+    "expected_top1": "33352067-9340-53a2-a031-d43f6cbee965",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C15",
+    "category": "C_short",
+    "query": "LICENSE",
+    "expected_top1": "06c1ff2a-84b9-50a1-b168-6c16157637c2",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C16",
+    "category": "C_short",
+    "query": "calibration",
+    "expected_top1": "6867da89-4d84-5ff9-a9f1-e6b48f7eefd7",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C17",
+    "category": "C_short",
+    "query": "timeout",
+    "expected_top1": "39dde75d-5308-5542-b290-11c33b58db7e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C18",
+    "category": "C_short",
+    "query": "Viss",
+    "expected_top1": "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C19",
+    "category": "C_short",
+    "query": "tunnel",
+    "expected_top1": "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "C20",
+    "category": "C_short",
+    "query": "Godmode",
+    "expected_top1": "29482fd8-c277-54bd-840c-79cc2e01172c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "D5",
+    "category": "D_long",
+    "query": "I want to publish inspectable hashes of a stranger proof run without putting private source on GitHub.",
+    "expected_top1": "030611ae-e27a-507b-ba67-ec4d56c8efd3",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "D6",
+    "category": "D_long",
+    "query": "The agent ranked guidance using another Grok call. Is that allowed?",
+    "expected_top1": "c6ff40da-2e98-5944-a577-f3f699921497",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "D7",
+    "category": "D_long",
+    "query": "I am filming Cursor refusing deploy. Is that the product proof?",
+    "expected_top1": "194963cb-65b7-580c-9e6b-15ec813e1d5e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "D8",
+    "category": "D_long",
+    "query": "Should overnight Pocket talk fire TTS while I sleep?",
+    "expected_top1": "3bc8010a-6afa-5e93-af11-1473f93dc64a",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "D9",
+    "category": "D_long",
+    "query": "Can I expose 8812 through an unauthenticated ngrok URL?",
+    "expected_top1": "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "D10",
+    "category": "D_long",
+    "query": "Do I need Qdrant running for the \u20ac49 developer bank?",
+    "expected_top1": "39096067-ca55-5574-9868-174e6c02c4b6",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_deployment.production-approval",
+    "category": "A_exact",
+    "query": "Never deploy to production without explicit operator approval.",
+    "expected_top1": "66983977-ae22-502d-9953-f2dfa685b26f",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_style.short",
+    "category": "A_exact",
+    "query": "Keep answers short and plain. No essays unless asked.",
+    "expected_top1": "1dac1b2b-e018-5680-b1f5-c35cf376c819",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_coding.tests-required",
+    "category": "A_exact",
+    "query": "Always write tests for new ranking or bank logic.",
+    "expected_top1": "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_project.impl-choice",
+    "category": "A_exact",
+    "query": "Use JSON files for the clean-room bank. Do not use SQLite.",
+    "expected_top1": "3d642301-f764-588d-8439-6629bc27d8cf",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_integration.no-hooks",
+    "category": "A_exact",
+    "query": "Cursor hooks must never call 8811. Agents call recall themselves.",
+    "expected_top1": "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_security.no-secrets-in-chat",
+    "category": "A_exact",
+    "query": "Never paste API keys, tokens, or passwords into chat.",
+    "expected_top1": "bc8414e1-0429-5504-84ce-abb9126af79a",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_git.commit-on-ask",
+    "category": "A_exact",
+    "query": "Create git commits only when the operator explicitly asks.",
+    "expected_top1": "8b5f3050-615f-5c60-8c2d-c32526896c43",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_python.venv",
+    "category": "A_exact",
+    "query": "Run product python from the repo .venv, not a random system interpreter.",
+    "expected_top1": "edca559a-8f39-5bfc-bd45-d983fae4fb33",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_windows.product-port",
+    "category": "A_exact",
+    "query": "The product HTTP server listens on 127.0.0.1 port 8812 not desk 8811.",
+    "expected_top1": "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_mcp.four-tools",
+    "category": "A_exact",
+    "query": "MCP tools are exactly health, guidance_commit, guidance_recall, guidance_deactivate.",
+    "expected_top1": "62ba2a2c-7a0a-574b-9baf-16cba515794f",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_recall.before-act",
+    "category": "A_exact",
+    "query": "Before acting on a task where stored guidance may matter, call guidance_recall.",
+    "expected_top1": "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_ranker.no-llm",
+    "category": "A_exact",
+    "query": "Guidance ranking is code. Do not use an LLM to judge ranker scores.",
+    "expected_top1": "c6ff40da-2e98-5944-a577-f3f699921497",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_bank.atomic",
+    "category": "A_exact",
+    "query": "Bank writes must be atomic replace plus a last-good bak snapshot.",
+    "expected_top1": "6753b9f9-3853-5ec7-8314-38d527650c99",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_cli.demo-reset",
+    "category": "A_exact",
+    "query": "Reset is allowed only on a bank whose role is demo.",
+    "expected_top1": "f0a6edfa-4552-5797-8366-2262677a58df",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_error.no-fake-done",
+    "category": "A_exact",
+    "query": "Do not claim Done or PASS. Operator eyes decide.",
+    "expected_top1": "8d0604f7-0abd-576e-aa6e-a6270558f1ea",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_style.no-magenta",
+    "category": "A_exact",
+    "query": "Brand accent is cyan. Do not use magenta on the product site.",
+    "expected_top1": "ac62445b-9fdd-5cbe-ac81-9f9d77efc715",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_phone.no-auto-tts",
+    "category": "A_exact",
+    "query": "Do not auto-speak on Pocket unless the operator asks this turn.",
+    "expected_top1": "78a32d38-e1c2-5b22-ba19-f33b29c6a725",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_docs.no-zip-desk",
+    "category": "A_exact",
+    "query": "Never zip the operator desk as a product.",
+    "expected_top1": "ec1ad864-f087-55a6-a41a-f3038b776aad",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_logging.no-tokens",
+    "category": "A_exact",
+    "query": "Logs must not contain bearer tokens or API keys.",
+    "expected_top1": "b1bd18ad-f403-51d8-a9fe-04f20dfabd4e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_scope.project-alpha",
+    "category": "A_exact",
+    "query": "Project Alpha uses FastAPI for the public HTTP surface.",
+    "expected_top1": "ef9603a3-6dcb-5325-a1b1-9007902714bb",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_scope.project-beta",
+    "category": "A_exact",
+    "query": "Project Beta uses Flask for the public HTTP surface.",
+    "expected_top1": "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_db.migrations",
+    "category": "A_exact",
+    "query": "Apply database migrations before starting the API process.",
+    "expected_top1": "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_css.phone-column",
+    "category": "A_exact",
+    "query": "Pocket UI stays a phone column. Do not widen to 100vw.",
+    "expected_top1": "0daaa433-6c01-56b3-b3f4-a25c42410ac9",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_tests.no-skip",
+    "category": "A_exact",
+    "query": "Do not skip tests to make a ranking change look green.",
+    "expected_top1": "2155d128-75c2-5f64-92c5-aa6e49b0db1b",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_backup.before-wipe",
+    "category": "A_exact",
+    "query": "Export a bank backup before any destructive reset.",
+    "expected_top1": "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_health.first",
+    "category": "A_exact",
+    "query": "Call health before claiming the product server is up.",
+    "expected_top1": "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_query.preserve",
+    "category": "A_exact",
+    "query": "Recall must echo the caller query string unchanged in the response.",
+    "expected_top1": "18dbff34-b2a1-5f0e-940a-85b05ba26723",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_inactive.no-leak",
+    "category": "A_exact",
+    "query": "Superseded, retracted, test, and plan_meta records must not rank in normal recall.",
+    "expected_top1": "be679620-3a8e-5fe5-83f5-6ebb0d09fc84",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_determinism.repeat",
+    "category": "A_exact",
+    "query": "The same bank and query must return the same hit order every time.",
+    "expected_top1": "460c37ad-f489-509e-9cc2-9c86710cb613",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_perf.report-honest",
+    "category": "A_exact",
+    "query": "Do not claim scale beyond measured latency on this machine.",
+    "expected_top1": "e0e853dd-385c-5463-b906-ec6232083385",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_agent.obedience-separate",
+    "category": "A_exact",
+    "query": "Model obedience is not retrieval accuracy. Score them apart.",
+    "expected_top1": "75f67a40-5407-5a0e-b24b-0550bd4a9107",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_proof.no-film",
+    "category": "A_exact",
+    "query": "A screen recording is not product evidence. Files and hashes are.",
+    "expected_top1": "194963cb-65b7-580c-9e6b-15ec813e1d5e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_install.spaces",
+    "category": "A_exact",
+    "query": "Bootstrap must work when the checkout path contains spaces.",
+    "expected_top1": "d1449120-163a-5a4d-91b9-e4bf1280705c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_lang.python311",
+    "category": "A_exact",
+    "query": "Developer v1 targets Python 3.11 or newer.",
+    "expected_top1": "b5d196cd-fed8-56d8-aafd-200dda342320",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_http.post-only",
+    "category": "A_exact",
+    "query": "Product HTTP is POST /api/dimensional. GET is not an API.",
+    "expected_top1": "00795571-1003-51e2-8a1f-0a480a7f90b2",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_kind.lock-vs-taste",
+    "category": "A_exact",
+    "query": "Locks refuse actions. Taste shapes wording. Do not mix those jobs.",
+    "expected_top1": "037be715-2fec-577d-b4bc-3c3edc483087",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_durable.over-chatter",
+    "category": "A_exact",
+    "query": "A durable coding standard outranks a newer unrelated UI note.",
+    "expected_top1": "f9b9403a-8364-53f1-8340-b25e78f265c3",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_names.call-viss",
+    "category": "A_exact",
+    "query": "When speaking to the operator, call him Viss.",
+    "expected_top1": "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_night.silent",
+    "category": "A_exact",
+    "query": "Overnight ticks stay silent. Do not auto Pocket TTS overnight.",
+    "expected_top1": "3bc8010a-6afa-5e93-af11-1473f93dc64a",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_tunnel.no-public",
+    "category": "A_exact",
+    "query": "Do not expose the product server on a public unauthenticated tunnel.",
+    "expected_top1": "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_qdrant.not-product",
+    "category": "A_exact",
+    "query": "The people product bank is JSON files. It does not require Qdrant.",
+    "expected_top1": "39096067-ca55-5574-9868-174e6c02c4b6",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_embeddings.not-product",
+    "category": "A_exact",
+    "query": "The people product ranker does not call an embedding API.",
+    "expected_top1": "62a427fc-8290-59d8-b36b-e269744218cb",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_cursor.stock-vs-godmode",
+    "category": "A_exact",
+    "query": "Do not mix stock Cursor settings with the Godmode fork.",
+    "expected_top1": "29482fd8-c277-54bd-840c-79cc2e01172c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_stripe.not-now",
+    "category": "A_exact",
+    "query": "Do not wire Stripe in this product slice.",
+    "expected_top1": "5d816e23-b3f0-5493-bb75-f80964982ac4",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_watch.not-proof",
+    "category": "A_exact",
+    "query": "The WATCH film is not a retrieval receipt.",
+    "expected_top1": "9131dc3f-d1b2-5c8f-80bd-767c001248ec",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_github.public-proof",
+    "category": "A_exact",
+    "query": "Public receipts live in the site repo proof folder, not private source.",
+    "expected_top1": "030611ae-e27a-507b-ba67-ec4d56c8efd3",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_mcp.reload",
+    "category": "A_exact",
+    "query": "After editing mcp.json, reload MCP. A stale stdio process is not a bank failure.",
+    "expected_top1": "6f572eae-e728-5c04-b217-78661f890a7e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_conflict.ports",
+    "category": "A_exact",
+    "query": "Do not bind two products to the same loopback port.",
+    "expected_top1": "9d5ca113-09e1-5e65-b442-887de24e0a97",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_ui.blue-button",
+    "category": "A_exact",
+    "query": "Try a blue button on the settings page this afternoon.",
+    "expected_top1": "6b32f9bd-9e73-53de-8a99-92ae238eb835",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_lint.ruff",
+    "category": "A_exact",
+    "query": "Run ruff on changed Python files before claiming a patch is clean.",
+    "expected_top1": "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_fmt.black",
+    "category": "A_exact",
+    "query": "Format Python with black using the repo default line length.",
+    "expected_top1": "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_types.mypy",
+    "category": "A_exact",
+    "query": "Do not add new untyped public functions in the product package.",
+    "expected_top1": "84edb58c-0e83-50a5-98a5-ec15670740bf",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_http.timeout",
+    "category": "A_exact",
+    "query": "Outbound product HTTP calls use a 30 second timeout.",
+    "expected_top1": "39dde75d-5308-5542-b290-11c33b58db7e",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_json.utf8",
+    "category": "A_exact",
+    "query": "Bank files are UTF-8 JSON with a trailing newline.",
+    "expected_top1": "b09dec25-b908-5473-97bb-e6277e45fc7b",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_ids.uuid",
+    "category": "A_exact",
+    "query": "Record ids are UUID strings. Do not invent short slugs as ids.",
+    "expected_top1": "09790dc1-f31c-5513-a200-5f87c0a300e2",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_limit.default6",
+    "category": "A_exact",
+    "query": "Default recall limit is 6 hits unless the caller sets limit.",
+    "expected_top1": "4075b3a6-86f6-5c33-8162-05f62fe45abc",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_empty.calibrate",
+    "category": "A_exact",
+    "query": "Empty bank recall_status is empty_bank with suggestion calibration_needed.",
+    "expected_top1": "6867da89-4d84-5ff9-a9f1-e6b48f7eefd7",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_host.loopback",
+    "category": "A_exact",
+    "query": "Bind the product server to 127.0.0.1 not 0.0.0.0.",
+    "expected_top1": "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_powershell.pwsh",
+    "category": "A_exact",
+    "query": "Windows launchers run under pwsh not Windows PowerShell 5 when possible.",
+    "expected_top1": "33352067-9340-53a2-a031-d43f6cbee965",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_venv.pytest",
+    "category": "A_exact",
+    "query": "Bootstrap installs pytest into the product venv.",
+    "expected_top1": "cfd5c6f0-2dcb-5a39-a921-b8baf58fe84c",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_license.paid",
+    "category": "A_exact",
+    "query": "This product is a paid license. See LICENSE.",
+    "expected_top1": "06c1ff2a-84b9-50a1-b168-6c16157637c2",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_backup.dir",
+    "category": "A_exact",
+    "query": "CLI backup writes a timestamped JSON under the bank backups folder by default.",
+    "expected_top1": "6d23a9f1-df4a-516e-9c64-14688c156c12",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_restore.overwrite",
+    "category": "A_exact",
+    "query": "CLI restore replaces the live bank from a backup JSON.",
+    "expected_top1": "92638491-805b-5965-b3d3-15c56aba427b",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  },
+  {
+    "id": "Z_fingerprint.sha256",
+    "category": "A_exact",
+    "query": "Health fingerprint includes sha256 bytes count and role.",
+    "expected_top1": "378e359b-2345-59ca-a4d0-2d37d92177f4",
+    "expected_any": null,
+    "expected_empty": null,
+    "forbidden": null
+  }
+]

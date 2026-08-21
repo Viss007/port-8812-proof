@@ -1,0 +1,65 @@
+{
+  "pack": "port-8811-public-proof",
+  "pack_version": 4,
+  "proof_version": 4,
+  "run_id": "proof-v4-20260819",
+  "recorded_at": "2026-08-19T16:30:00Z",
+  "software_release": {
+    "version": "1.0.0",
+    "codename": "continuity-core",
+    "git_tag": "v1.0.0",
+    "private_product_sha": "b20e192032c4f97737cd3e1776279253e1da4068",
+    "private_product_tip_at_proof_publish": "b20e192032c4f97737cd3e1776279253e1da4068",
+    "tree_fingerprint": "6b14f46ff9600804",
+    "guidance_api_sha16": "e01edac39a679f72"
+  },
+  "product_acceptance": {
+    "collected": 53,
+    "passed": 53,
+    "failed": 0,
+    "receipt": "core-v4/receipts/product_acceptance-53.txt"
+  },
+  "ranker": {
+    "mode": "idf_plus_min_exact_support_abstention",
+    "llm_judgment": false,
+    "embeddings_required": false
+  },
+  "semantic_flags": {
+    "semantic_local_enabled": false,
+    "semantic_api_enabled": false,
+    "semantic_profile_enabled": false
+  },
+  "windows_search": {
+    "retrieval": "closed",
+    "recommended": "ignore"
+  },
+  "setup": {
+    "command": "python -m dimensional_agent.product.cli setup",
+    "mcp_name": "8812-product",
+    "port": 8812,
+    "stale_build_detection": true,
+    "health_includes_build": true,
+    "receipt": "core-v4/receipts/setup_health.json"
+  },
+  "continuity": {
+    "ssot": "docs/CONTINUITY.md (private product)",
+    "blind_fp": "0/35",
+    "blind_misses": "0/15",
+    "blind_receipt": "core-v3/reports/blind.json"
+  },
+  "agent_use": {
+    "receipt": "core-v4/receipts/agent_use_qualitative.json",
+    "eur49_software_verdict": "YES",
+    "label": "qualitative_real_use_not_universal_guarantee"
+  },
+  "real_agent_eval_universal": "not_proved",
+  "landing_claims_withdrawn": [
+    "120 real-model calls",
+    "90% relevant-guidance recall",
+    "10% control \u2192 90% with 8811"
+  ],
+  "prior_packs_retained": [
+    "proof-v2-20260819-115609",
+    "proof-v3-20260819"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "8811.guidance_fp.v1",
+  "frozen_note": "Expected answers frozen BEFORE CORE harden. Do not edit after baseline.",
+  "queries": {
+    "pos-deploy-001": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "similar_wrong_ids": ["rec-active-similar-wrong-ci-green"],
+      "must_not_return": ["rec-superseded-deploy-autopromote", "rec-test-smoke-deploy", "rec-planmeta-wake", "rec-retracted-autodelete"]
+    },
+    "pos-style-001": {
+      "relevant_ids": ["rec-active-style-concise"],
+      "must_not_return": ["rec-superseded-style-verbose"]
+    },
+    "pos-pathlib-001": {
+      "relevant_ids": ["rec-active-python-pathlib"],
+      "must_not_return": []
+    },
+    "pos-delete-001": {
+      "relevant_ids": ["rec-active-delete-confirm"],
+      "must_not_return": ["rec-retracted-autodelete"]
+    },
+    "pos-multi-001": {
+      "relevant_ids": ["rec-active-deploy-approval", "rec-active-style-concise"],
+      "must_not_return": ["rec-superseded-deploy-autopromote", "rec-superseded-style-verbose"]
+    },
+    "sim-wrong-001": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "similar_wrong_ids": ["rec-active-similar-wrong-ci-green"],
+      "must_not_return": ["rec-superseded-deploy-autopromote"],
+      "top1_must_be_relevant": true
+    },
+    "short-001": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "allow_empty": true,
+      "must_not_return": ["rec-superseded-deploy-autopromote", "rec-test-smoke-deploy", "rec-planmeta-wake"]
+    },
+    "short-002": {
+      "relevant_ids": ["rec-active-python-pathlib"],
+      "allow_empty": true,
+      "must_not_return": []
+    },
+    "short-003": {
+      "relevant_ids": ["rec-active-delete-confirm"],
+      "allow_empty": true,
+      "must_not_return": ["rec-retracted-autodelete"]
+    },
+    "neg-trivia-001": {
+      "expect_empty": true,
+      "must_not_return": ["rec-active-deploy-approval", "rec-active-style-concise", "rec-active-python-pathlib", "rec-active-delete-confirm", "rec-active-unrelated-pasta", "rec-active-project-a-tone", "rec-active-similar-wrong-ci-green"]
+    },
+    "neg-trivia-002": {
+      "expect_empty": true,
+      "must_not_return": ["rec-active-deploy-approval", "rec-active-style-concise", "rec-active-python-pathlib", "rec-active-delete-confirm", "rec-active-unrelated-pasta", "rec-active-project-a-tone", "rec-active-similar-wrong-ci-green"]
+    },
+    "neg-unrelated-001": {
+      "relevant_ids": ["rec-active-unrelated-pasta"],
+      "note": "Cooking query may hit pasta taste; not a product guidance FP if empty also acceptable for CORE product focus",
+      "allow_empty": true,
+      "must_not_return": ["rec-active-deploy-approval"]
+    },
+    "neg-scope-001": {
+      "expect_empty": true,
+      "must_not_return": ["rec-active-project-a-tone"]
+    },
+    "inactive-super-001": {
+      "relevant_ids": ["rec-active-style-concise"],
+      "must_not_return": ["rec-superseded-style-verbose"],
+      "allow_empty": true
+    },
+    "inactive-retract-001": {
+      "relevant_ids": ["rec-active-delete-confirm"],
+      "must_not_return": ["rec-retracted-autodelete"],
+      "allow_empty": true
+    },
+    "inactive-test-001": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "must_not_return": ["rec-test-smoke-deploy"],
+      "allow_empty": true
+    },
+    "inactive-meta-001": {
+      "relevant_ids": ["rec-active-deploy-approval"],
+      "must_not_return": ["rec-planmeta-wake"],
+      "allow_empty": true
+    }
+  }
+}

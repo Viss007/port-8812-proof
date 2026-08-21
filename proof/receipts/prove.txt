@@ -1,0 +1,44 @@
+**********************
+PowerShell transcript start
+Start time: 20260819115625
+Username: <local-user>
+RunAs User: <local-user>
+Configuration Name: 
+Machine: <machine> (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -File .\Prove-8811Product.ps1
+Process ID: 41892
+PSVersion: 7.6.3
+PSEdition: Core
+GitCommitId: 7.6.3
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+
+PROOF health...
+PROOF_HEALTH_OK
+PROOF commit...
+PROOF_COMMIT_OK id=44965feb-44e0-4442-828b-b0d82f93182a
+PROOF recall...
+PROOF_RECALL_OK
+PROOF restart server...
+
+PROOF recall after restart...
+PROOF_RETAIN_OK
+PROOF backup/restore...
+
+
+PROOF_BACKUP_RESTORE_OK
+................................                                         [100%]
+32 passed in 9.16s
+PROOF_ACCEPTANCE_OK
+PROOF MCP smoke...
+PROOF_MCP_OK
+STRANGER_PROOF_PASS bank=<checkout>\var\bank\stranger-proof-20260819-115609 port=8812
+**********************
+PowerShell transcript end
+End time: 20260819115646
+**********************

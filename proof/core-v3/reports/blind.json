@@ -1,0 +1,600 @@
+{
+  "hashes": {
+    "blind_queries": "7bb18fa581c6",
+    "blind_expected": "e8fe1032047d",
+    "bank_seed": "b4a8db89a939"
+  },
+  "n": 50,
+  "determinism": true,
+  "fp_rate_negatives": 0.0,
+  "miss_rate_positives": 0.0,
+  "top1_rate_positives": 1.0,
+  "no_result_rate_all": 0.74,
+  "negatives": {
+    "n": 35,
+    "fp": 0
+  },
+  "positives": {
+    "n": 15,
+    "misses": 0,
+    "top1_ok": 15
+  },
+  "per_query": [
+    {
+      "id": "bv-neg-01",
+      "type": "negative",
+      "query": "What time is the next train to Vilnius?",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-02",
+      "type": "negative",
+      "query": "Convert 72 Fahrenheit to Celsius",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-03",
+      "type": "negative",
+      "query": "Write me a limerick about debugging",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-04",
+      "type": "negative",
+      "query": "How do I debounce an input in React?",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-05",
+      "type": "negative",
+      "query": "Fix the flaky Jest snapshot for the header",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-06",
+      "type": "negative",
+      "query": "npm install is hanging on optional dependencies",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-07",
+      "type": "negative",
+      "query": "ok thanks",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-08",
+      "type": "negative",
+      "query": "continue",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-09",
+      "type": "negative",
+      "query": "status?",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-10",
+      "type": "negative",
+      "query": "Is the build still running in the dashboard?",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-11",
+      "type": "negative",
+      "query": "The test suite is green on the PR",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-12",
+      "type": "negative",
+      "query": "Release notes for version 3.2 look fine",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-13",
+      "type": "negative",
+      "query": "Factory production line throughput improved this quarter",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-14",
+      "type": "negative",
+      "query": "Green tea reduces inflammation according to that paper",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-15",
+      "type": "negative",
+      "query": "Deploy the marketing site preview to the staging CDN",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-16",
+      "type": "negative",
+      "query": "Who owns the release checklist in Notion?",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-17",
+      "type": "negative",
+      "query": "Update the README badges after the build",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-18",
+      "type": "negative",
+      "query": "Rename the primary CTA on the pricing page",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-19",
+      "type": "negative",
+      "query": "Sync Figma spacing tokens into the design system",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-20",
+      "type": "negative",
+      "query": "Schedule a 1:1 to discuss career goals",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-21",
+      "type": "negative",
+      "query": "Why is Postgres using so much disk?",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-22",
+      "type": "negative",
+      "query": "Translate this error message to Lithuanian",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-23",
+      "type": "negative",
+      "query": "The integration environment looks healthy",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-24",
+      "type": "negative",
+      "query": "Ship the newsletter draft by Friday",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-25",
+      "type": "negative",
+      "query": "Can you review my pull request comments?",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-26",
+      "type": "negative",
+      "query": "path",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-27",
+      "type": "negative",
+      "query": "approval",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-28",
+      "type": "negative",
+      "query": "In Project Z, which greeting string should the bot use?",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-29",
+      "type": "negative",
+      "query": "Production capacity planning for the warehouse",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-neg-30",
+      "type": "negative",
+      "query": "The pipeline failed on the lint stage",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-pos-01",
+      "type": "positive",
+      "query": "Am I allowed to ship this build to production right now?",
+      "hit_ids": [
+        "rec-active-deploy-approval"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-pos-02",
+      "type": "positive",
+      "query": "Do we need written approval before a production deploy?",
+      "hit_ids": [
+        "rec-active-deploy-approval"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-pos-03",
+      "type": "positive",
+      "query": "Wipe persisted customer records from the bank overnight \u2014 ok?",
+      "hit_ids": [
+        "rec-active-delete-confirm"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-pos-04",
+      "type": "positive",
+      "query": "For product-lane Python, should new path code use pathlib?",
+      "hit_ids": [
+        "rec-active-python-pathlib"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-pos-05",
+      "type": "positive",
+      "query": "Please keep explanations concise with no opening paragraph",
+      "hit_ids": [
+        "rec-active-style-concise"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-pos-06",
+      "type": "positive",
+      "query": "Promote to production only after explicit approval, right?",
+      "hit_ids": [
+        "rec-active-deploy-approval"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-pos-07",
+      "type": "positive",
+      "query": "pathlib versus os.path for fresh product path helpers",
+      "hit_ids": [
+        "rec-active-python-pathlib"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-pos-08",
+      "type": "positive",
+      "query": "Destructive delete of user data needs confirmation \u2014 confirm the lock",
+      "hit_ids": [
+        "rec-active-delete-confirm"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-pos-09",
+      "type": "positive",
+      "query": "Current taste: concise answers, skip the intro",
+      "hit_ids": [
+        "rec-active-style-concise"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-pos-10",
+      "type": "positive",
+      "query": "Never auto-ship to production without asking first",
+      "hit_ids": [
+        "rec-active-deploy-approval"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-par-01",
+      "type": "positive",
+      "query": "Is silent overnight deletion of persisted users forbidden?",
+      "hit_ids": [
+        "rec-active-delete-confirm"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-par-02",
+      "type": "positive",
+      "query": "Which path library is preferred in our Python product code?",
+      "hit_ids": [
+        "rec-active-python-pathlib"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-scope-01",
+      "type": "negative",
+      "query": "Project B onboarding copy for the empty state",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-scope-02",
+      "type": "positive",
+      "query": "In Project A, what greeting phrase do we use?",
+      "hit_ids": [
+        "rec-active-project-a-tone"
+      ],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": false
+    },
+    {
+      "id": "bv-short-01",
+      "type": "negative",
+      "query": "green",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-short-02",
+      "type": "negative",
+      "query": "production",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-short-03",
+      "type": "ambiguous",
+      "query": "deploy",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-short-04",
+      "type": "ambiguous",
+      "query": "delete",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-mix-01",
+      "type": "negative",
+      "query": "The release branch is green after the nightly build",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    },
+    {
+      "id": "bv-mix-02",
+      "type": "negative",
+      "query": "Document production incidents in the runbook",
+      "hit_ids": [],
+      "false_positive": false,
+      "missed_relevant": false,
+      "top1_ok": true,
+      "ok": true,
+      "empty": true
+    }
+  ]
+}

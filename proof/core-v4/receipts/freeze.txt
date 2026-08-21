@@ -1,0 +1,7 @@
+version=1.0.0
+git_tag=v1.0.0
+git_sha=0ca0679a67d444a06aba2a43302c781ce3728a89
+tree_fingerprint=6b14f46ff9600804
+guidance_api_sha16=e01edac39a679f72
+product_acceptance=53 passed
+recorded_at=2026-08-19T19:24:00+03:00

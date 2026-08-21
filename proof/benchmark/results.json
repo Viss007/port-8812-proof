@@ -1,0 +1,3446 @@
+[
+  {
+    "id": "A1",
+    "category": "A_exact",
+    "query": "Never deploy to production without explicit operator approval.",
+    "recall_status": "ok",
+    "top1": "66983977-ae22-502d-9953-f2dfa685b26f",
+    "ids": [
+      "66983977-ae22-502d-9953-f2dfa685b26f",
+      "ec1ad864-f087-55a6-a41a-f3038b776aad"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "A2",
+    "category": "A_exact",
+    "query": "Always write tests for new ranking or bank logic.",
+    "recall_status": "ok",
+    "top1": "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+    "ids": [
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "2155d128-75c2-5f64-92c5-aa6e49b0db1b"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "A3",
+    "category": "A_exact",
+    "query": "MCP tools are exactly health, guidance_commit, guidance_recall, guidance_deactivate.",
+    "recall_status": "ok",
+    "top1": "62ba2a2c-7a0a-574b-9baf-16cba515794f",
+    "ids": [
+      "62ba2a2c-7a0a-574b-9baf-16cba515794f"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "A4",
+    "category": "A_exact",
+    "query": "Run ruff on changed Python files before claiming a patch is clean.",
+    "recall_status": "ok",
+    "top1": "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+    "ids": [
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "A5",
+    "category": "A_exact",
+    "query": "Bind the product server to 127.0.0.1 not 0.0.0.0.",
+    "recall_status": "ok",
+    "top1": "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+    "ids": [
+      "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+      "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "39096067-ca55-5574-9868-174e6c02c4b6"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B1",
+    "category": "B_paraphrase",
+    "query": "Can I ship to prod right now without asking?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": false,
+    "hit_ok": false,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B2",
+    "category": "B_paraphrase",
+    "query": "Should I write tests when I change ranking?",
+    "recall_status": "ok",
+    "top1": "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+    "ids": [
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "2155d128-75c2-5f64-92c5-aa6e49b0db1b",
+      "c6ff40da-2e98-5944-a577-f3f699921497"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B3",
+    "category": "B_paraphrase",
+    "query": "Is ranking done by another model?",
+    "recall_status": "ok",
+    "top1": "8d0604f7-0abd-576e-aa6e-a6270558f1ea",
+    "ids": [
+      "8d0604f7-0abd-576e-aa6e-a6270558f1ea",
+      "75f67a40-5407-5a0e-b24b-0550bd4a9107",
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "c6ff40da-2e98-5944-a577-f3f699921497",
+      "2155d128-75c2-5f64-92c5-aa6e49b0db1b"
+    ],
+    "top1_ok": false,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B4",
+    "category": "B_paraphrase",
+    "query": "Wire hooks into 8811 for me.",
+    "recall_status": "ok",
+    "top1": "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+    "ids": [
+      "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+      "5d816e23-b3f0-5493-bb75-f80964982ac4",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B5",
+    "category": "B_paraphrase",
+    "query": "Paste the openai key in this chat.",
+    "recall_status": "ok",
+    "top1": "bc8414e1-0429-5504-84ce-abb9126af79a",
+    "ids": [
+      "bc8414e1-0429-5504-84ce-abb9126af79a"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B6",
+    "category": "B_paraphrase",
+    "query": "Commit these files to git.",
+    "recall_status": "ok",
+    "top1": "8b5f3050-615f-5c60-8c2d-c32526896c43",
+    "ids": [
+      "8b5f3050-615f-5c60-8c2d-c32526896c43",
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b",
+      "3d642301-f764-588d-8439-6629bc27d8cf",
+      "39096067-ca55-5574-9868-174e6c02c4b6",
+      "194963cb-65b7-580c-9e6b-15ec813e1d5e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B7",
+    "category": "B_paraphrase",
+    "query": "A video of the agent stopping is enough proof.",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": false,
+    "hit_ok": false,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B8",
+    "category": "B_paraphrase",
+    "query": "Use SQLite for the clean-room bank.",
+    "recall_status": "ok",
+    "top1": "3d642301-f764-588d-8439-6629bc27d8cf",
+    "ids": [
+      "3d642301-f764-588d-8439-6629bc27d8cf",
+      "6753b9f9-3853-5ec7-8314-38d527650c99",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C1",
+    "category": "C_short",
+    "query": "ruff",
+    "recall_status": "ok",
+    "top1": "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+    "ids": [
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C2",
+    "category": "C_short",
+    "query": "mypy",
+    "recall_status": "ok",
+    "top1": "84edb58c-0e83-50a5-98a5-ec15670740bf",
+    "ids": [
+      "84edb58c-0e83-50a5-98a5-ec15670740bf"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C3",
+    "category": "C_short",
+    "query": "8812",
+    "recall_status": "ok",
+    "top1": "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+    "ids": [
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C4",
+    "category": "C_short",
+    "query": "Qdrant",
+    "recall_status": "ok",
+    "top1": "39096067-ca55-5574-9868-174e6c02c4b6",
+    "ids": [
+      "39096067-ca55-5574-9868-174e6c02c4b6"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C5",
+    "category": "C_short",
+    "query": "magenta",
+    "recall_status": "ok",
+    "top1": "ac62445b-9fdd-5cbe-ac81-9f9d77efc715",
+    "ids": [
+      "ac62445b-9fdd-5cbe-ac81-9f9d77efc715"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "D1",
+    "category": "D_long",
+    "query": "I am about to change how the filesystem bank writes JSON while the HTTP server is threaded. What is the required write behavior?",
+    "recall_status": "ok",
+    "top1": "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+    "ids": [
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "6d23a9f1-df4a-516e-9c64-14688c156c12",
+      "6753b9f9-3853-5ec7-8314-38d527650c99",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "92638491-805b-5965-b3d3-15c56aba427b"
+    ],
+    "top1_ok": false,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "D2",
+    "category": "D_long",
+    "query": "Buyer asks how to wipe a demo bank safely versus their real guidance. What is allowed?",
+    "recall_status": "ok",
+    "top1": "f0a6edfa-4552-5797-8366-2262677a58df",
+    "ids": [
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "D3",
+    "category": "D_long",
+    "query": "Starting the public HTTP process for the database-backed API \u2014 what must happen first?",
+    "recall_status": "ok",
+    "top1": "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0",
+    "ids": [
+      "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0",
+      "00795571-1003-51e2-8a1f-0a480a7f90b2",
+      "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+      "ef9603a3-6dcb-5325-a1b1-9007902714bb"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "D4",
+    "category": "D_long",
+    "query": "Need to connect Cursor MCP to this product. Which four tools exist?",
+    "recall_status": "ok",
+    "top1": "62ba2a2c-7a0a-574b-9baf-16cba515794f",
+    "ids": [
+      "62ba2a2c-7a0a-574b-9baf-16cba515794f"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "E1",
+    "category": "E_similar_wrong",
+    "query": "Which framework does Project Alpha use for public HTTP?",
+    "recall_status": "ok",
+    "top1": "ef9603a3-6dcb-5325-a1b1-9007902714bb",
+    "ids": [
+      "ef9603a3-6dcb-5325-a1b1-9007902714bb",
+      "fdf75d42-71ff-54d5-9cd3-ae55548f37dd"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [
+      "fdf75d42-71ff-54d5-9cd3-ae55548f37dd"
+    ],
+    "echo_query": true
+  },
+  {
+    "id": "E2",
+    "category": "E_similar_wrong",
+    "query": "Which framework does Project Beta use for public HTTP?",
+    "recall_status": "ok",
+    "top1": "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+    "ids": [
+      "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+      "ef9603a3-6dcb-5325-a1b1-9007902714bb"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [
+      "ef9603a3-6dcb-5325-a1b1-9007902714bb"
+    ],
+    "echo_query": true
+  },
+  {
+    "id": "E3",
+    "category": "E_similar_wrong",
+    "query": "Format Python with black using the repo default line length.",
+    "recall_status": "ok",
+    "top1": "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c",
+    "ids": [
+      "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c",
+      "edca559a-8f39-5bfc-bd45-d983fae4fb33"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F1",
+    "category": "F_negative",
+    "query": "What is 2+2?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F2",
+    "category": "F_negative",
+    "query": "Capital of Lithuania?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F3",
+    "category": "F_negative",
+    "query": "Explain merge sort briefly.",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F4",
+    "category": "F_negative",
+    "query": "Who wrote Hamlet?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F5",
+    "category": "F_negative",
+    "query": "Convert 10 miles to km.",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F6",
+    "category": "F_negative",
+    "query": "Name three primary colors.",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F7",
+    "category": "F_negative",
+    "query": "What day follows Monday?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F8",
+    "category": "F_negative",
+    "query": "Is water H2O?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F9",
+    "category": "F_negative",
+    "query": "Define a prime number.",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F10",
+    "category": "F_negative",
+    "query": "What is HTTP status 418 teapot history in cafes unrelated to this bank?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F11",
+    "category": "F_negative",
+    "query": "Weather in Tokyo tomorrow?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F12",
+    "category": "F_negative",
+    "query": "Recipe for pancakes?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F13",
+    "category": "F_negative",
+    "query": "How many moons does Mars have?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F14",
+    "category": "F_negative",
+    "query": "Translate hello to Japanese.",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F15",
+    "category": "F_negative",
+    "query": "Who won the 1998 world cup?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F16",
+    "category": "F_negative",
+    "query": "What color is the sky at noon?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F17",
+    "category": "F_negative",
+    "query": "List European countries starting with Z.",
+    "recall_status": "ok",
+    "top1": "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0",
+    "ids": [
+      "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0"
+    ],
+    "top1_ok": false,
+    "hit_ok": false,
+    "neg_fp": true,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F18",
+    "category": "F_negative",
+    "query": "Play a jazz standard on piano.",
+    "recall_status": "ok",
+    "top1": "f9b9403a-8364-53f1-8340-b25e78f265c3",
+    "ids": [
+      "f9b9403a-8364-53f1-8340-b25e78f265c3",
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0",
+      "2155d128-75c2-5f64-92c5-aa6e49b0db1b"
+    ],
+    "top1_ok": false,
+    "hit_ok": false,
+    "neg_fp": true,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F19",
+    "category": "F_negative",
+    "query": "How long is a marathon in yards?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F20",
+    "category": "F_negative",
+    "query": "Name a dinosaur from the jurassic.",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F21",
+    "category": "F_negative",
+    "query": "What is the boiling point of water at sea level in celsius?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F22",
+    "category": "F_negative",
+    "query": "Who painted the Mona Lisa?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F23",
+    "category": "F_negative",
+    "query": "How many sides does a hexagon have?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F24",
+    "category": "F_negative",
+    "query": "What is the currency of Japan?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F25",
+    "category": "F_negative",
+    "query": "Name the largest ocean on earth.",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F26",
+    "category": "F_negative",
+    "query": "When is the summer solstice in the northern hemisphere?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F27",
+    "category": "F_negative",
+    "query": "What instrument has 88 keys?",
+    "recall_status": "ok",
+    "top1": "bc8414e1-0429-5504-84ce-abb9126af79a",
+    "ids": [
+      "bc8414e1-0429-5504-84ce-abb9126af79a",
+      "b1bd18ad-f403-51d8-a9fe-04f20dfabd4e"
+    ],
+    "top1_ok": false,
+    "hit_ok": false,
+    "neg_fp": true,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F28",
+    "category": "F_negative",
+    "query": "How fast is the speed of light in vacuum roughly?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F29",
+    "category": "F_negative",
+    "query": "Who discovered penicillin?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "F30",
+    "category": "F_negative",
+    "query": "What planet is known as the red planet?",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "G1",
+    "category": "G_superseded",
+    "query": "deploy by copying files over SSH without a ticket",
+    "recall_status": "ok",
+    "top1": "66983977-ae22-502d-9953-f2dfa685b26f",
+    "ids": [
+      "66983977-ae22-502d-9953-f2dfa685b26f"
+    ],
+    "top1_ok": false,
+    "hit_ok": false,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "H1",
+    "category": "H_retracted",
+    "query": "comic sans for all operator replies",
+    "recall_status": "ok",
+    "top1": "ec1ad864-f087-55a6-a41a-f3038b776aad",
+    "ids": [
+      "ec1ad864-f087-55a6-a41a-f3038b776aad",
+      "8d0604f7-0abd-576e-aa6e-a6270558f1ea",
+      "8b5f3050-615f-5c60-8c2d-c32526896c43",
+      "78a32d38-e1c2-5b22-ba19-f33b29c6a725",
+      "66983977-ae22-502d-9953-f2dfa685b26f",
+      "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d"
+    ],
+    "top1_ok": false,
+    "hit_ok": false,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "I1",
+    "category": "I_test",
+    "query": "Smoke probe record must not influence ranking.",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": false,
+    "hit_ok": false,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "J1",
+    "category": "J_plan_meta",
+    "query": "THIS WAKE leftover sequence item foo.",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": false,
+    "hit_ok": false,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "K1",
+    "category": "K_durable_vs_recent",
+    "query": "how should we change ranking logic tests",
+    "recall_status": "ok",
+    "top1": "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+    "ids": [
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "2155d128-75c2-5f64-92c5-aa6e49b0db1b",
+      "c6ff40da-2e98-5944-a577-f3f699921497"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "L1",
+    "category": "L_same_key",
+    "query": "clean-room bank storage choice JSON files",
+    "recall_status": "ok",
+    "top1": "3d642301-f764-588d-8439-6629bc27d8cf",
+    "ids": [
+      "3d642301-f764-588d-8439-6629bc27d8cf",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b",
+      "39096067-ca55-5574-9868-174e6c02c4b6",
+      "92638491-805b-5965-b3d3-15c56aba427b",
+      "6f572eae-e728-5c04-b217-78661f890a7e",
+      "6d23a9f1-df4a-516e-9c64-14688c156c12"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "M1",
+    "category": "M_scope",
+    "query": "public HTTP surface framework",
+    "recall_status": "ok",
+    "top1": "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+    "ids": [
+      "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+      "ef9603a3-6dcb-5325-a1b1-9007902714bb",
+      "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+      "39dde75d-5308-5542-b290-11c33b58db7e",
+      "030611ae-e27a-507b-ba67-ec4d56c8efd3",
+      "00795571-1003-51e2-8a1f-0a480a7f90b2"
+    ],
+    "top1_ok": false,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "N1",
+    "category": "N_ambiguous",
+    "query": "python formatting and lint",
+    "recall_status": "ok",
+    "top1": "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+    "ids": [
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+      "edca559a-8f39-5bfc-bd45-d983fae4fb33",
+      "b5d196cd-fed8-56d8-aafd-200dda342320",
+      "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c"
+    ],
+    "top1_ok": false,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B9",
+    "category": "B_paraphrase",
+    "query": "Need pytest when touching the bank.",
+    "recall_status": "ok",
+    "top1": "cfd5c6f0-2dcb-5a39-a921-b8baf58fe84c",
+    "ids": [
+      "cfd5c6f0-2dcb-5a39-a921-b8baf58fe84c",
+      "6753b9f9-3853-5ec7-8314-38d527650c99",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b"
+    ],
+    "top1_ok": false,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B10",
+    "category": "B_paraphrase",
+    "query": "Do not speak on the phone app unless asked.",
+    "recall_status": "ok",
+    "top1": "78a32d38-e1c2-5b22-ba19-f33b29c6a725",
+    "ids": [
+      "78a32d38-e1c2-5b22-ba19-f33b29c6a725",
+      "1dac1b2b-e018-5680-b1f5-c35cf376c819"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B11",
+    "category": "B_paraphrase",
+    "query": "Keep the pocket layout a phone column.",
+    "recall_status": "ok",
+    "top1": "0daaa433-6c01-56b3-b3f4-a25c42410ac9",
+    "ids": [
+      "0daaa433-6c01-56b3-b3f4-a25c42410ac9",
+      "78a32d38-e1c2-5b22-ba19-f33b29c6a725"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B12",
+    "category": "B_paraphrase",
+    "query": "Do not skip tests for a green ranking patch.",
+    "recall_status": "ok",
+    "top1": "2155d128-75c2-5f64-92c5-aa6e49b0db1b",
+    "ids": [
+      "2155d128-75c2-5f64-92c5-aa6e49b0db1b",
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B13",
+    "category": "B_paraphrase",
+    "query": "Export the bank before wiping it.",
+    "recall_status": "ok",
+    "top1": "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+    "ids": [
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+      "6753b9f9-3853-5ec7-8314-38d527650c99",
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+      "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B14",
+    "category": "B_paraphrase",
+    "query": "Check health before saying the server is up.",
+    "recall_status": "ok",
+    "top1": "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+    "ids": [
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B15",
+    "category": "B_paraphrase",
+    "query": "Echo the query string unchanged.",
+    "recall_status": "ok",
+    "top1": "18dbff34-b2a1-5f0e-940a-85b05ba26723",
+    "ids": [
+      "18dbff34-b2a1-5f0e-940a-85b05ba26723",
+      "460c37ad-f489-509e-9cc2-9c86710cb613"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B16",
+    "category": "B_paraphrase",
+    "query": "Dead records must not leak into recall.",
+    "recall_status": "ok",
+    "top1": "be679620-3a8e-5fe5-83f5-6ebb0d09fc84",
+    "ids": [
+      "be679620-3a8e-5fe5-83f5-6ebb0d09fc84",
+      "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+      "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+      "4075b3a6-86f6-5c33-8162-05f62fe45abc",
+      "18dbff34-b2a1-5f0e-940a-85b05ba26723"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B17",
+    "category": "B_paraphrase",
+    "query": "Same query same order.",
+    "recall_status": "ok",
+    "top1": "460c37ad-f489-509e-9cc2-9c86710cb613",
+    "ids": [
+      "460c37ad-f489-509e-9cc2-9c86710cb613",
+      "18dbff34-b2a1-5f0e-940a-85b05ba26723",
+      "9d5ca113-09e1-5e65-b442-887de24e0a97"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B18",
+    "category": "B_paraphrase",
+    "query": "Do not fake 10000-record scale.",
+    "recall_status": "ok",
+    "top1": "8d0604f7-0abd-576e-aa6e-a6270558f1ea",
+    "ids": [
+      "8d0604f7-0abd-576e-aa6e-a6270558f1ea",
+      "e0e853dd-385c-5463-b906-ec6232083385"
+    ],
+    "top1_ok": false,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B19",
+    "category": "B_paraphrase",
+    "query": "Obedience is a different layer from recall.",
+    "recall_status": "ok",
+    "top1": "75f67a40-5407-5a0e-b24b-0550bd4a9107",
+    "ids": [
+      "75f67a40-5407-5a0e-b24b-0550bd4a9107",
+      "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+      "be679620-3a8e-5fe5-83f5-6ebb0d09fc84",
+      "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+      "4075b3a6-86f6-5c33-8162-05f62fe45abc",
+      "18dbff34-b2a1-5f0e-940a-85b05ba26723"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B20",
+    "category": "B_paraphrase",
+    "query": "Checkout path has spaces.",
+    "recall_status": "ok",
+    "top1": "d1449120-163a-5a4d-91b9-e4bf1280705c",
+    "ids": [
+      "d1449120-163a-5a4d-91b9-e4bf1280705c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B21",
+    "category": "B_paraphrase",
+    "query": "Need Python 3.11.",
+    "recall_status": "ok",
+    "top1": "edca559a-8f39-5bfc-bd45-d983fae4fb33",
+    "ids": [
+      "edca559a-8f39-5bfc-bd45-d983fae4fb33",
+      "b5d196cd-fed8-56d8-aafd-200dda342320",
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+      "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c"
+    ],
+    "top1_ok": false,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B22",
+    "category": "B_paraphrase",
+    "query": "Only POST to /api/dimensional.",
+    "recall_status": "ok",
+    "top1": "00795571-1003-51e2-8a1f-0a480a7f90b2",
+    "ids": [
+      "00795571-1003-51e2-8a1f-0a480a7f90b2",
+      "bc8414e1-0429-5504-84ce-abb9126af79a",
+      "b1bd18ad-f403-51d8-a9fe-04f20dfabd4e",
+      "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0",
+      "62a427fc-8290-59d8-b36b-e269744218cb"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B23",
+    "category": "B_paraphrase",
+    "query": "Call him Viss.",
+    "recall_status": "ok",
+    "top1": "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+    "ids": [
+      "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+      "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "4821e9e6-719c-5271-9ede-9edbe9dc6490"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B24",
+    "category": "B_paraphrase",
+    "query": "No public tunnel for the product.",
+    "recall_status": "ok",
+    "top1": "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+    "ids": [
+      "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+      "030611ae-e27a-507b-ba67-ec4d56c8efd3",
+      "84edb58c-0e83-50a5-98a5-ec15670740bf",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "39096067-ca55-5574-9868-174e6c02c4b6"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B25",
+    "category": "B_paraphrase",
+    "query": "No embedding API in the ranker.",
+    "recall_status": "ok",
+    "top1": "62a427fc-8290-59d8-b36b-e269744218cb",
+    "ids": [
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "c6ff40da-2e98-5944-a577-f3f699921497",
+      "bc8414e1-0429-5504-84ce-abb9126af79a",
+      "b1bd18ad-f403-51d8-a9fe-04f20dfabd4e",
+      "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0",
+      "00795571-1003-51e2-8a1f-0a480a7f90b2"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B26",
+    "category": "B_paraphrase",
+    "query": "Do not mix Godmode with stock Cursor.",
+    "recall_status": "ok",
+    "top1": "29482fd8-c277-54bd-840c-79cc2e01172c",
+    "ids": [
+      "29482fd8-c277-54bd-840c-79cc2e01172c",
+      "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+      "037be715-2fec-577d-b4bc-3c3edc483087"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B27",
+    "category": "B_paraphrase",
+    "query": "Stripe is out of this slice.",
+    "recall_status": "ok",
+    "top1": "5d816e23-b3f0-5493-bb75-f80964982ac4",
+    "ids": [
+      "5d816e23-b3f0-5493-bb75-f80964982ac4"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B28",
+    "category": "B_paraphrase",
+    "query": "WATCH is not a receipt.",
+    "recall_status": "ok",
+    "top1": "9131dc3f-d1b2-5c8f-80bd-767c001248ec",
+    "ids": [
+      "9131dc3f-d1b2-5c8f-80bd-767c001248ec"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B29",
+    "category": "B_paraphrase",
+    "query": "Reload MCP after mcp.json edits.",
+    "recall_status": "ok",
+    "top1": "6f572eae-e728-5c04-b217-78661f890a7e",
+    "ids": [
+      "6f572eae-e728-5c04-b217-78661f890a7e",
+      "62ba2a2c-7a0a-574b-9baf-16cba515794f"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B30",
+    "category": "B_paraphrase",
+    "query": "Two products cannot share one port.",
+    "recall_status": "ok",
+    "top1": "9d5ca113-09e1-5e65-b442-887de24e0a97",
+    "ids": [
+      "9d5ca113-09e1-5e65-b442-887de24e0a97"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B31",
+    "category": "B_paraphrase",
+    "query": "Timeout outbound HTTP at 30 seconds.",
+    "recall_status": "ok",
+    "top1": "39dde75d-5308-5542-b290-11c33b58db7e",
+    "ids": [
+      "39dde75d-5308-5542-b290-11c33b58db7e",
+      "00795571-1003-51e2-8a1f-0a480a7f90b2",
+      "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+      "ef9603a3-6dcb-5325-a1b1-9007902714bb",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B32",
+    "category": "B_paraphrase",
+    "query": "UTF-8 JSON bank with newline.",
+    "recall_status": "ok",
+    "top1": "b09dec25-b908-5473-97bb-e6277e45fc7b",
+    "ids": [
+      "b09dec25-b908-5473-97bb-e6277e45fc7b",
+      "92638491-805b-5965-b3d3-15c56aba427b",
+      "6f572eae-e728-5c04-b217-78661f890a7e",
+      "6d23a9f1-df4a-516e-9c64-14688c156c12",
+      "3d642301-f764-588d-8439-6629bc27d8cf",
+      "39096067-ca55-5574-9868-174e6c02c4b6"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B33",
+    "category": "B_paraphrase",
+    "query": "Record ids are UUIDs.",
+    "recall_status": "ok",
+    "top1": "09790dc1-f31c-5513-a200-5f87c0a300e2",
+    "ids": [
+      "09790dc1-f31c-5513-a200-5f87c0a300e2"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B34",
+    "category": "B_paraphrase",
+    "query": "Default hit limit is six.",
+    "recall_status": "ok",
+    "top1": "4075b3a6-86f6-5c33-8162-05f62fe45abc",
+    "ids": [
+      "4075b3a6-86f6-5c33-8162-05f62fe45abc",
+      "460c37ad-f489-509e-9cc2-9c86710cb613",
+      "6d23a9f1-df4a-516e-9c64-14688c156c12",
+      "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B35",
+    "category": "B_paraphrase",
+    "query": "Empty bank needs calibration.",
+    "recall_status": "ok",
+    "top1": "6867da89-4d84-5ff9-a9f1-e6b48f7eefd7",
+    "ids": [
+      "6867da89-4d84-5ff9-a9f1-e6b48f7eefd7",
+      "6753b9f9-3853-5ec7-8314-38d527650c99",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B36",
+    "category": "B_paraphrase",
+    "query": "Use pwsh for Windows launchers.",
+    "recall_status": "ok",
+    "top1": "33352067-9340-53a2-a031-d43f6cbee965",
+    "ids": [
+      "33352067-9340-53a2-a031-d43f6cbee965",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B37",
+    "category": "B_paraphrase",
+    "query": "Bootstrap installs pytest.",
+    "recall_status": "ok",
+    "top1": "cfd5c6f0-2dcb-5a39-a921-b8baf58fe84c",
+    "ids": [
+      "cfd5c6f0-2dcb-5a39-a921-b8baf58fe84c",
+      "d1449120-163a-5a4d-91b9-e4bf1280705c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B38",
+    "category": "B_paraphrase",
+    "query": "See LICENSE for the paid license.",
+    "recall_status": "ok",
+    "top1": "06c1ff2a-84b9-50a1-b168-6c16157637c2",
+    "ids": [
+      "06c1ff2a-84b9-50a1-b168-6c16157637c2"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B39",
+    "category": "B_paraphrase",
+    "query": "Default CLI backup folder.",
+    "recall_status": "ok",
+    "top1": "6d23a9f1-df4a-516e-9c64-14688c156c12",
+    "ids": [
+      "6d23a9f1-df4a-516e-9c64-14688c156c12",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "4075b3a6-86f6-5c33-8162-05f62fe45abc",
+      "92638491-805b-5965-b3d3-15c56aba427b",
+      "030611ae-e27a-507b-ba67-ec4d56c8efd3"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B40",
+    "category": "B_paraphrase",
+    "query": "Restore overwrites the live bank.",
+    "recall_status": "ok",
+    "top1": "92638491-805b-5965-b3d3-15c56aba427b",
+    "ids": [
+      "92638491-805b-5965-b3d3-15c56aba427b",
+      "6753b9f9-3853-5ec7-8314-38d527650c99",
+      "030611ae-e27a-507b-ba67-ec4d56c8efd3",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B41",
+    "category": "B_paraphrase",
+    "query": "Fingerprint has sha256.",
+    "recall_status": "ok",
+    "top1": "378e359b-2345-59ca-a4d0-2d37d92177f4",
+    "ids": [
+      "378e359b-2345-59ca-a4d0-2d37d92177f4"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B42",
+    "category": "B_paraphrase",
+    "query": "Retracted and superseded rows stay out of normal recall.",
+    "recall_status": "ok",
+    "top1": "be679620-3a8e-5fe5-83f5-6ebb0d09fc84",
+    "ids": [
+      "be679620-3a8e-5fe5-83f5-6ebb0d09fc84"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B43",
+    "category": "B_paraphrase",
+    "query": "Can I ship this to production without asking anyone?",
+    "recall_status": "ok",
+    "top1": "66983977-ae22-502d-9953-f2dfa685b26f",
+    "ids": [
+      "66983977-ae22-502d-9953-f2dfa685b26f"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B44",
+    "category": "B_paraphrase",
+    "query": "Overnight stay silent.",
+    "recall_status": "ok",
+    "top1": "3bc8010a-6afa-5e93-af11-1473f93dc64a",
+    "ids": [
+      "3bc8010a-6afa-5e93-af11-1473f93dc64a"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B45",
+    "category": "B_paraphrase",
+    "query": "Do not zip the desk.",
+    "recall_status": "ok",
+    "top1": "ec1ad864-f087-55a6-a41a-f3038b776aad",
+    "ids": [
+      "ec1ad864-f087-55a6-a41a-f3038b776aad",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B46",
+    "category": "B_paraphrase",
+    "query": "No tokens in logs.",
+    "recall_status": "ok",
+    "top1": "b1bd18ad-f403-51d8-a9fe-04f20dfabd4e",
+    "ids": [
+      "b1bd18ad-f403-51d8-a9fe-04f20dfabd4e",
+      "bc8414e1-0429-5504-84ce-abb9126af79a"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B47",
+    "category": "B_paraphrase",
+    "query": "Use .venv python.",
+    "recall_status": "ok",
+    "top1": "edca559a-8f39-5bfc-bd45-d983fae4fb33",
+    "ids": [
+      "edca559a-8f39-5bfc-bd45-d983fae4fb33",
+      "cfd5c6f0-2dcb-5a39-a921-b8baf58fe84c",
+      "b5d196cd-fed8-56d8-aafd-200dda342320",
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+      "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B48",
+    "category": "B_paraphrase",
+    "query": "Call recall before acting.",
+    "recall_status": "ok",
+    "top1": "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+    "ids": [
+      "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+      "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B49",
+    "category": "B_paraphrase",
+    "query": "Locks versus taste.",
+    "recall_status": "ok",
+    "top1": "037be715-2fec-577d-b4bc-3c3edc483087",
+    "ids": [
+      "037be715-2fec-577d-b4bc-3c3edc483087",
+      "ac62445b-9fdd-5cbe-ac81-9f9d77efc715",
+      "78a32d38-e1c2-5b22-ba19-f33b29c6a725",
+      "3bc8010a-6afa-5e93-af11-1473f93dc64a",
+      "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+      "1dac1b2b-e018-5680-b1f5-c35cf376c819"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B50",
+    "category": "B_paraphrase",
+    "query": "Public proof folder on the site repo.",
+    "recall_status": "ok",
+    "top1": "030611ae-e27a-507b-ba67-ec4d56c8efd3",
+    "ids": [
+      "030611ae-e27a-507b-ba67-ec4d56c8efd3"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B51",
+    "category": "B_paraphrase",
+    "query": "Apply migrations before the API process.",
+    "recall_status": "ok",
+    "top1": "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0",
+    "ids": [
+      "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B52",
+    "category": "B_paraphrase",
+    "query": "Do not claim PASS yourself.",
+    "recall_status": "ok",
+    "top1": "8d0604f7-0abd-576e-aa6e-a6270558f1ea",
+    "ids": [
+      "8d0604f7-0abd-576e-aa6e-a6270558f1ea",
+      "e0e853dd-385c-5463-b906-ec6232083385"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B53",
+    "category": "B_paraphrase",
+    "query": "Keep answers short and plain.",
+    "recall_status": "ok",
+    "top1": "1dac1b2b-e018-5680-b1f5-c35cf376c819",
+    "ids": [
+      "1dac1b2b-e018-5680-b1f5-c35cf376c819",
+      "09790dc1-f31c-5513-a200-5f87c0a300e2"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B54",
+    "category": "B_paraphrase",
+    "query": "Never deploy without approval.",
+    "recall_status": "ok",
+    "top1": "66983977-ae22-502d-9953-f2dfa685b26f",
+    "ids": [
+      "66983977-ae22-502d-9953-f2dfa685b26f",
+      "ec1ad864-f087-55a6-a41a-f3038b776aad",
+      "bc8414e1-0429-5504-84ce-abb9126af79a",
+      "4821e9e6-719c-5271-9ede-9edbe9dc6490"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B55",
+    "category": "B_paraphrase",
+    "query": "JSON files not SQLite for the bank.",
+    "recall_status": "ok",
+    "top1": "3d642301-f764-588d-8439-6629bc27d8cf",
+    "ids": [
+      "3d642301-f764-588d-8439-6629bc27d8cf",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b",
+      "39096067-ca55-5574-9868-174e6c02c4b6",
+      "92638491-805b-5965-b3d3-15c56aba427b",
+      "6f572eae-e728-5c04-b217-78661f890a7e",
+      "6d23a9f1-df4a-516e-9c64-14688c156c12"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B56",
+    "category": "B_paraphrase",
+    "query": "Hooks never call 8811.",
+    "recall_status": "ok",
+    "top1": "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+    "ids": [
+      "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+      "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+      "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "ec1ad864-f087-55a6-a41a-f3038b776aad",
+      "bc8414e1-0429-5504-84ce-abb9126af79a"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B57",
+    "category": "B_paraphrase",
+    "query": "Product port is 8812.",
+    "recall_status": "ok",
+    "top1": "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+    "ids": [
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "9d5ca113-09e1-5e65-b442-887de24e0a97",
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "39096067-ca55-5574-9868-174e6c02c4b6",
+      "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+      "edca559a-8f39-5bfc-bd45-d983fae4fb33"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B58",
+    "category": "B_paraphrase",
+    "query": "Atomic replace plus bak.",
+    "recall_status": "ok",
+    "top1": "6753b9f9-3853-5ec7-8314-38d527650c99",
+    "ids": [
+      "6753b9f9-3853-5ec7-8314-38d527650c99"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B59",
+    "category": "B_paraphrase",
+    "query": "Demo role required to reset.",
+    "recall_status": "ok",
+    "top1": "f0a6edfa-4552-5797-8366-2262677a58df",
+    "ids": [
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "378e359b-2345-59ca-a4d0-2d37d92177f4"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "B60",
+    "category": "B_paraphrase",
+    "query": "Cyan not magenta.",
+    "recall_status": "ok",
+    "top1": "ac62445b-9fdd-5cbe-ac81-9f9d77efc715",
+    "ids": [
+      "ac62445b-9fdd-5cbe-ac81-9f9d77efc715"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C6",
+    "category": "C_short",
+    "query": "black",
+    "recall_status": "ok",
+    "top1": "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c",
+    "ids": [
+      "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C7",
+    "category": "C_short",
+    "query": "FastAPI",
+    "recall_status": "ok",
+    "top1": "ef9603a3-6dcb-5325-a1b1-9007902714bb",
+    "ids": [
+      "ef9603a3-6dcb-5325-a1b1-9007902714bb"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C8",
+    "category": "C_short",
+    "query": "Flask",
+    "recall_status": "ok",
+    "top1": "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+    "ids": [
+      "fdf75d42-71ff-54d5-9cd3-ae55548f37dd"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C9",
+    "category": "C_short",
+    "query": "Stripe",
+    "recall_status": "ok",
+    "top1": "5d816e23-b3f0-5493-bb75-f80964982ac4",
+    "ids": [
+      "5d816e23-b3f0-5493-bb75-f80964982ac4"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C10",
+    "category": "C_short",
+    "query": "embeddings",
+    "recall_status": "ok",
+    "top1": "62a427fc-8290-59d8-b36b-e269744218cb",
+    "ids": [
+      "62a427fc-8290-59d8-b36b-e269744218cb"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C11",
+    "category": "C_short",
+    "query": "loopback",
+    "recall_status": "ok",
+    "top1": "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+    "ids": [
+      "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+      "9d5ca113-09e1-5e65-b442-887de24e0a97"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C12",
+    "category": "C_short",
+    "query": "sha256",
+    "recall_status": "ok",
+    "top1": "378e359b-2345-59ca-a4d0-2d37d92177f4",
+    "ids": [
+      "378e359b-2345-59ca-a4d0-2d37d92177f4"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C13",
+    "category": "C_short",
+    "query": "UUID",
+    "recall_status": "ok",
+    "top1": "09790dc1-f31c-5513-a200-5f87c0a300e2",
+    "ids": [
+      "09790dc1-f31c-5513-a200-5f87c0a300e2"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C14",
+    "category": "C_short",
+    "query": "pwsh",
+    "recall_status": "ok",
+    "top1": "33352067-9340-53a2-a031-d43f6cbee965",
+    "ids": [
+      "33352067-9340-53a2-a031-d43f6cbee965"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C15",
+    "category": "C_short",
+    "query": "LICENSE",
+    "recall_status": "ok",
+    "top1": "06c1ff2a-84b9-50a1-b168-6c16157637c2",
+    "ids": [
+      "06c1ff2a-84b9-50a1-b168-6c16157637c2"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C16",
+    "category": "C_short",
+    "query": "calibration",
+    "recall_status": "no_relevant_active_guidance",
+    "top1": null,
+    "ids": [],
+    "top1_ok": false,
+    "hit_ok": false,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C17",
+    "category": "C_short",
+    "query": "timeout",
+    "recall_status": "ok",
+    "top1": "39dde75d-5308-5542-b290-11c33b58db7e",
+    "ids": [
+      "39dde75d-5308-5542-b290-11c33b58db7e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C18",
+    "category": "C_short",
+    "query": "Viss",
+    "recall_status": "ok",
+    "top1": "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+    "ids": [
+      "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C19",
+    "category": "C_short",
+    "query": "tunnel",
+    "recall_status": "ok",
+    "top1": "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+    "ids": [
+      "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "C20",
+    "category": "C_short",
+    "query": "Godmode",
+    "recall_status": "ok",
+    "top1": "29482fd8-c277-54bd-840c-79cc2e01172c",
+    "ids": [
+      "29482fd8-c277-54bd-840c-79cc2e01172c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "D5",
+    "category": "D_long",
+    "query": "I want to publish inspectable hashes of a stranger proof run without putting private source on GitHub.",
+    "recall_status": "ok",
+    "top1": "030611ae-e27a-507b-ba67-ec4d56c8efd3",
+    "ids": [
+      "030611ae-e27a-507b-ba67-ec4d56c8efd3",
+      "194963cb-65b7-580c-9e6b-15ec813e1d5e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "D6",
+    "category": "D_long",
+    "query": "The agent ranked guidance using another Grok call. Is that allowed?",
+    "recall_status": "ok",
+    "top1": "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+    "ids": [
+      "d290a7ea-a755-5ad6-bb86-be554d571bfe"
+    ],
+    "top1_ok": false,
+    "hit_ok": false,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "D7",
+    "category": "D_long",
+    "query": "I am filming Cursor refusing deploy. Is that the product proof?",
+    "recall_status": "ok",
+    "top1": "194963cb-65b7-580c-9e6b-15ec813e1d5e",
+    "ids": [
+      "194963cb-65b7-580c-9e6b-15ec813e1d5e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "D8",
+    "category": "D_long",
+    "query": "Should overnight Pocket talk fire TTS while I sleep?",
+    "recall_status": "ok",
+    "top1": "78a32d38-e1c2-5b22-ba19-f33b29c6a725",
+    "ids": [
+      "78a32d38-e1c2-5b22-ba19-f33b29c6a725",
+      "3bc8010a-6afa-5e93-af11-1473f93dc64a"
+    ],
+    "top1_ok": false,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "D9",
+    "category": "D_long",
+    "query": "Can I expose 8812 through an unauthenticated ngrok URL?",
+    "recall_status": "ok",
+    "top1": "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+    "ids": [
+      "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "D10",
+    "category": "D_long",
+    "query": "Do I need Qdrant running for the \u20ac49 developer bank?",
+    "recall_status": "ok",
+    "top1": "39096067-ca55-5574-9868-174e6c02c4b6",
+    "ids": [
+      "39096067-ca55-5574-9868-174e6c02c4b6",
+      "6753b9f9-3853-5ec7-8314-38d527650c99",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_deployment.production-approval",
+    "category": "A_exact",
+    "query": "Never deploy to production without explicit operator approval.",
+    "recall_status": "ok",
+    "top1": "66983977-ae22-502d-9953-f2dfa685b26f",
+    "ids": [
+      "66983977-ae22-502d-9953-f2dfa685b26f",
+      "ec1ad864-f087-55a6-a41a-f3038b776aad"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_style.short",
+    "category": "A_exact",
+    "query": "Keep answers short and plain. No essays unless asked.",
+    "recall_status": "ok",
+    "top1": "1dac1b2b-e018-5680-b1f5-c35cf376c819",
+    "ids": [
+      "1dac1b2b-e018-5680-b1f5-c35cf376c819"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_coding.tests-required",
+    "category": "A_exact",
+    "query": "Always write tests for new ranking or bank logic.",
+    "recall_status": "ok",
+    "top1": "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+    "ids": [
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d",
+      "2155d128-75c2-5f64-92c5-aa6e49b0db1b"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_project.impl-choice",
+    "category": "A_exact",
+    "query": "Use JSON files for the clean-room bank. Do not use SQLite.",
+    "recall_status": "ok",
+    "top1": "3d642301-f764-588d-8439-6629bc27d8cf",
+    "ids": [
+      "3d642301-f764-588d-8439-6629bc27d8cf",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b",
+      "39096067-ca55-5574-9868-174e6c02c4b6",
+      "92638491-805b-5965-b3d3-15c56aba427b",
+      "6f572eae-e728-5c04-b217-78661f890a7e",
+      "6d23a9f1-df4a-516e-9c64-14688c156c12"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_integration.no-hooks",
+    "category": "A_exact",
+    "query": "Cursor hooks must never call 8811. Agents call recall themselves.",
+    "recall_status": "ok",
+    "top1": "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+    "ids": [
+      "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+      "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+      "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+      "62a427fc-8290-59d8-b36b-e269744218cb"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_security.no-secrets-in-chat",
+    "category": "A_exact",
+    "query": "Never paste API keys, tokens, or passwords into chat.",
+    "recall_status": "ok",
+    "top1": "bc8414e1-0429-5504-84ce-abb9126af79a",
+    "ids": [
+      "bc8414e1-0429-5504-84ce-abb9126af79a",
+      "b1bd18ad-f403-51d8-a9fe-04f20dfabd4e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_git.commit-on-ask",
+    "category": "A_exact",
+    "query": "Create git commits only when the operator explicitly asks.",
+    "recall_status": "ok",
+    "top1": "8b5f3050-615f-5c60-8c2d-c32526896c43",
+    "ids": [
+      "8b5f3050-615f-5c60-8c2d-c32526896c43",
+      "78a32d38-e1c2-5b22-ba19-f33b29c6a725"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_python.venv",
+    "category": "A_exact",
+    "query": "Run product python from the repo .venv, not a random system interpreter.",
+    "recall_status": "ok",
+    "top1": "edca559a-8f39-5bfc-bd45-d983fae4fb33",
+    "ids": [
+      "edca559a-8f39-5bfc-bd45-d983fae4fb33",
+      "cfd5c6f0-2dcb-5a39-a921-b8baf58fe84c",
+      "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_windows.product-port",
+    "category": "A_exact",
+    "query": "The product HTTP server listens on 127.0.0.1 port 8812 not desk 8811.",
+    "recall_status": "ok",
+    "top1": "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+    "ids": [
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "ec1ad864-f087-55a6-a41a-f3038b776aad",
+      "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+      "39dde75d-5308-5542-b290-11c33b58db7e",
+      "00795571-1003-51e2-8a1f-0a480a7f90b2",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_mcp.four-tools",
+    "category": "A_exact",
+    "query": "MCP tools are exactly health, guidance_commit, guidance_recall, guidance_deactivate.",
+    "recall_status": "ok",
+    "top1": "62ba2a2c-7a0a-574b-9baf-16cba515794f",
+    "ids": [
+      "62ba2a2c-7a0a-574b-9baf-16cba515794f"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_recall.before-act",
+    "category": "A_exact",
+    "query": "Before acting on a task where stored guidance may matter, call guidance_recall.",
+    "recall_status": "ok",
+    "top1": "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+    "ids": [
+      "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_ranker.no-llm",
+    "category": "A_exact",
+    "query": "Guidance ranking is code. Do not use an LLM to judge ranker scores.",
+    "recall_status": "ok",
+    "top1": "c6ff40da-2e98-5944-a577-f3f699921497",
+    "ids": [
+      "c6ff40da-2e98-5944-a577-f3f699921497"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_bank.atomic",
+    "category": "A_exact",
+    "query": "Bank writes must be atomic replace plus a last-good bak snapshot.",
+    "recall_status": "ok",
+    "top1": "6753b9f9-3853-5ec7-8314-38d527650c99",
+    "ids": [
+      "6753b9f9-3853-5ec7-8314-38d527650c99",
+      "6d23a9f1-df4a-516e-9c64-14688c156c12"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_cli.demo-reset",
+    "category": "A_exact",
+    "query": "Reset is allowed only on a bank whose role is demo.",
+    "recall_status": "ok",
+    "top1": "f0a6edfa-4552-5797-8366-2262677a58df",
+    "ids": [
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_error.no-fake-done",
+    "category": "A_exact",
+    "query": "Do not claim Done or PASS. Operator eyes decide.",
+    "recall_status": "ok",
+    "top1": "8d0604f7-0abd-576e-aa6e-a6270558f1ea",
+    "ids": [
+      "8d0604f7-0abd-576e-aa6e-a6270558f1ea"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_style.no-magenta",
+    "category": "A_exact",
+    "query": "Brand accent is cyan. Do not use magenta on the product site.",
+    "recall_status": "ok",
+    "top1": "ac62445b-9fdd-5cbe-ac81-9f9d77efc715",
+    "ids": [
+      "ac62445b-9fdd-5cbe-ac81-9f9d77efc715"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_phone.no-auto-tts",
+    "category": "A_exact",
+    "query": "Do not auto-speak on Pocket unless the operator asks this turn.",
+    "recall_status": "ok",
+    "top1": "78a32d38-e1c2-5b22-ba19-f33b29c6a725",
+    "ids": [
+      "78a32d38-e1c2-5b22-ba19-f33b29c6a725",
+      "8b5f3050-615f-5c60-8c2d-c32526896c43"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_docs.no-zip-desk",
+    "category": "A_exact",
+    "query": "Never zip the operator desk as a product.",
+    "recall_status": "ok",
+    "top1": "ec1ad864-f087-55a6-a41a-f3038b776aad",
+    "ids": [
+      "ec1ad864-f087-55a6-a41a-f3038b776aad",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "66983977-ae22-502d-9953-f2dfa685b26f"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_logging.no-tokens",
+    "category": "A_exact",
+    "query": "Logs must not contain bearer tokens or API keys.",
+    "recall_status": "ok",
+    "top1": "b1bd18ad-f403-51d8-a9fe-04f20dfabd4e",
+    "ids": [
+      "b1bd18ad-f403-51d8-a9fe-04f20dfabd4e",
+      "bc8414e1-0429-5504-84ce-abb9126af79a"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_scope.project-alpha",
+    "category": "A_exact",
+    "query": "Project Alpha uses FastAPI for the public HTTP surface.",
+    "recall_status": "ok",
+    "top1": "ef9603a3-6dcb-5325-a1b1-9007902714bb",
+    "ids": [
+      "ef9603a3-6dcb-5325-a1b1-9007902714bb",
+      "fdf75d42-71ff-54d5-9cd3-ae55548f37dd"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_scope.project-beta",
+    "category": "A_exact",
+    "query": "Project Beta uses Flask for the public HTTP surface.",
+    "recall_status": "ok",
+    "top1": "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+    "ids": [
+      "fdf75d42-71ff-54d5-9cd3-ae55548f37dd",
+      "ef9603a3-6dcb-5325-a1b1-9007902714bb"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_db.migrations",
+    "category": "A_exact",
+    "query": "Apply database migrations before starting the API process.",
+    "recall_status": "ok",
+    "top1": "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0",
+    "ids": [
+      "8b1a3058-9ca5-5b38-94d4-ed3879dafeb0"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_css.phone-column",
+    "category": "A_exact",
+    "query": "Pocket UI stays a phone column. Do not widen to 100vw.",
+    "recall_status": "ok",
+    "top1": "0daaa433-6c01-56b3-b3f4-a25c42410ac9",
+    "ids": [
+      "0daaa433-6c01-56b3-b3f4-a25c42410ac9",
+      "78a32d38-e1c2-5b22-ba19-f33b29c6a725"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_tests.no-skip",
+    "category": "A_exact",
+    "query": "Do not skip tests to make a ranking change look green.",
+    "recall_status": "ok",
+    "top1": "2155d128-75c2-5f64-92c5-aa6e49b0db1b",
+    "ids": [
+      "2155d128-75c2-5f64-92c5-aa6e49b0db1b",
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_backup.before-wipe",
+    "category": "A_exact",
+    "query": "Export a bank backup before any destructive reset.",
+    "recall_status": "ok",
+    "top1": "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+    "ids": [
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "6d23a9f1-df4a-516e-9c64-14688c156c12",
+      "92638491-805b-5965-b3d3-15c56aba427b"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_health.first",
+    "category": "A_exact",
+    "query": "Call health before claiming the product server is up.",
+    "recall_status": "ok",
+    "top1": "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+    "ids": [
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+      "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+      "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_query.preserve",
+    "category": "A_exact",
+    "query": "Recall must echo the caller query string unchanged in the response.",
+    "recall_status": "ok",
+    "top1": "18dbff34-b2a1-5f0e-940a-85b05ba26723",
+    "ids": [
+      "18dbff34-b2a1-5f0e-940a-85b05ba26723",
+      "4075b3a6-86f6-5c33-8162-05f62fe45abc"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_inactive.no-leak",
+    "category": "A_exact",
+    "query": "Superseded, retracted, test, and plan_meta records must not rank in normal recall.",
+    "recall_status": "ok",
+    "top1": "be679620-3a8e-5fe5-83f5-6ebb0d09fc84",
+    "ids": [
+      "be679620-3a8e-5fe5-83f5-6ebb0d09fc84"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_determinism.repeat",
+    "category": "A_exact",
+    "query": "The same bank and query must return the same hit order every time.",
+    "recall_status": "ok",
+    "top1": "460c37ad-f489-509e-9cc2-9c86710cb613",
+    "ids": [
+      "460c37ad-f489-509e-9cc2-9c86710cb613",
+      "9d5ca113-09e1-5e65-b442-887de24e0a97"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_perf.report-honest",
+    "category": "A_exact",
+    "query": "Do not claim scale beyond measured latency on this machine.",
+    "recall_status": "ok",
+    "top1": "e0e853dd-385c-5463-b906-ec6232083385",
+    "ids": [
+      "e0e853dd-385c-5463-b906-ec6232083385"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_agent.obedience-separate",
+    "category": "A_exact",
+    "query": "Model obedience is not retrieval accuracy. Score them apart.",
+    "recall_status": "ok",
+    "top1": "75f67a40-5407-5a0e-b24b-0550bd4a9107",
+    "ids": [
+      "75f67a40-5407-5a0e-b24b-0550bd4a9107"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_proof.no-film",
+    "category": "A_exact",
+    "query": "A screen recording is not product evidence. Files and hashes are.",
+    "recall_status": "ok",
+    "top1": "194963cb-65b7-580c-9e6b-15ec813e1d5e",
+    "ids": [
+      "194963cb-65b7-580c-9e6b-15ec813e1d5e",
+      "39096067-ca55-5574-9868-174e6c02c4b6"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_install.spaces",
+    "category": "A_exact",
+    "query": "Bootstrap must work when the checkout path contains spaces.",
+    "recall_status": "ok",
+    "top1": "d1449120-163a-5a4d-91b9-e4bf1280705c",
+    "ids": [
+      "d1449120-163a-5a4d-91b9-e4bf1280705c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_lang.python311",
+    "category": "A_exact",
+    "query": "Developer v1 targets Python 3.11 or newer.",
+    "recall_status": "ok",
+    "top1": "b5d196cd-fed8-56d8-aafd-200dda342320",
+    "ids": [
+      "b5d196cd-fed8-56d8-aafd-200dda342320",
+      "edca559a-8f39-5bfc-bd45-d983fae4fb33",
+      "f9b9403a-8364-53f1-8340-b25e78f265c3",
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+      "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_http.post-only",
+    "category": "A_exact",
+    "query": "Product HTTP is POST /api/dimensional. GET is not an API.",
+    "recall_status": "ok",
+    "top1": "00795571-1003-51e2-8a1f-0a480a7f90b2",
+    "ids": [
+      "00795571-1003-51e2-8a1f-0a480a7f90b2",
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "39dde75d-5308-5542-b290-11c33b58db7e",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "bc8414e1-0429-5504-84ce-abb9126af79a",
+      "b1bd18ad-f403-51d8-a9fe-04f20dfabd4e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_kind.lock-vs-taste",
+    "category": "A_exact",
+    "query": "Locks refuse actions. Taste shapes wording. Do not mix those jobs.",
+    "recall_status": "ok",
+    "top1": "037be715-2fec-577d-b4bc-3c3edc483087",
+    "ids": [
+      "037be715-2fec-577d-b4bc-3c3edc483087"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_durable.over-chatter",
+    "category": "A_exact",
+    "query": "A durable coding standard outranks a newer unrelated UI note.",
+    "recall_status": "ok",
+    "top1": "f9b9403a-8364-53f1-8340-b25e78f265c3",
+    "ids": [
+      "f9b9403a-8364-53f1-8340-b25e78f265c3",
+      "cd26a842-23e5-5965-8b30-acba40f3ba3d"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_names.call-viss",
+    "category": "A_exact",
+    "query": "When speaking to the operator, call him Viss.",
+    "recall_status": "ok",
+    "top1": "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+    "ids": [
+      "2d9c83fe-c4cd-5d36-8e7d-658ce630f18d",
+      "d290a7ea-a755-5ad6-bb86-be554d571bfe",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "4821e9e6-719c-5271-9ede-9edbe9dc6490",
+      "ec1ad864-f087-55a6-a41a-f3038b776aad"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_night.silent",
+    "category": "A_exact",
+    "query": "Overnight ticks stay silent. Do not auto Pocket TTS overnight.",
+    "recall_status": "ok",
+    "top1": "3bc8010a-6afa-5e93-af11-1473f93dc64a",
+    "ids": [
+      "3bc8010a-6afa-5e93-af11-1473f93dc64a",
+      "78a32d38-e1c2-5b22-ba19-f33b29c6a725"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_tunnel.no-public",
+    "category": "A_exact",
+    "query": "Do not expose the product server on a public unauthenticated tunnel.",
+    "recall_status": "ok",
+    "top1": "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+    "ids": [
+      "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+      "84edb58c-0e83-50a5-98a5-ec15670740bf"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_qdrant.not-product",
+    "category": "A_exact",
+    "query": "The people product bank is JSON files. It does not require Qdrant.",
+    "recall_status": "ok",
+    "top1": "39096067-ca55-5574-9868-174e6c02c4b6",
+    "ids": [
+      "39096067-ca55-5574-9868-174e6c02c4b6",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b",
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "3d642301-f764-588d-8439-6629bc27d8cf",
+      "92638491-805b-5965-b3d3-15c56aba427b",
+      "6f572eae-e728-5c04-b217-78661f890a7e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_embeddings.not-product",
+    "category": "A_exact",
+    "query": "The people product ranker does not call an embedding API.",
+    "recall_status": "ok",
+    "top1": "62a427fc-8290-59d8-b36b-e269744218cb",
+    "ids": [
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "39096067-ca55-5574-9868-174e6c02c4b6",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+      "00795571-1003-51e2-8a1f-0a480a7f90b2"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_cursor.stock-vs-godmode",
+    "category": "A_exact",
+    "query": "Do not mix stock Cursor settings with the Godmode fork.",
+    "recall_status": "ok",
+    "top1": "29482fd8-c277-54bd-840c-79cc2e01172c",
+    "ids": [
+      "29482fd8-c277-54bd-840c-79cc2e01172c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_stripe.not-now",
+    "category": "A_exact",
+    "query": "Do not wire Stripe in this product slice.",
+    "recall_status": "ok",
+    "top1": "5d816e23-b3f0-5493-bb75-f80964982ac4",
+    "ids": [
+      "5d816e23-b3f0-5493-bb75-f80964982ac4",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "39096067-ca55-5574-9868-174e6c02c4b6",
+      "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+      "edca559a-8f39-5bfc-bd45-d983fae4fb33"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_watch.not-proof",
+    "category": "A_exact",
+    "query": "The WATCH film is not a retrieval receipt.",
+    "recall_status": "ok",
+    "top1": "9131dc3f-d1b2-5c8f-80bd-767c001248ec",
+    "ids": [
+      "9131dc3f-d1b2-5c8f-80bd-767c001248ec",
+      "194963cb-65b7-580c-9e6b-15ec813e1d5e",
+      "75f67a40-5407-5a0e-b24b-0550bd4a9107"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_github.public-proof",
+    "category": "A_exact",
+    "query": "Public receipts live in the site repo proof folder, not private source.",
+    "recall_status": "ok",
+    "top1": "030611ae-e27a-507b-ba67-ec4d56c8efd3",
+    "ids": [
+      "030611ae-e27a-507b-ba67-ec4d56c8efd3"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_mcp.reload",
+    "category": "A_exact",
+    "query": "After editing mcp.json, reload MCP. A stale stdio process is not a bank failure.",
+    "recall_status": "ok",
+    "top1": "6f572eae-e728-5c04-b217-78661f890a7e",
+    "ids": [
+      "6f572eae-e728-5c04-b217-78661f890a7e",
+      "62ba2a2c-7a0a-574b-9baf-16cba515794f",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b",
+      "92638491-805b-5965-b3d3-15c56aba427b",
+      "6d23a9f1-df4a-516e-9c64-14688c156c12",
+      "3d642301-f764-588d-8439-6629bc27d8cf"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_conflict.ports",
+    "category": "A_exact",
+    "query": "Do not bind two products to the same loopback port.",
+    "recall_status": "ok",
+    "top1": "9d5ca113-09e1-5e65-b442-887de24e0a97",
+    "ids": [
+      "9d5ca113-09e1-5e65-b442-887de24e0a97",
+      "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_ui.blue-button",
+    "category": "A_exact",
+    "query": "Try a blue button on the settings page this afternoon.",
+    "recall_status": "ok",
+    "top1": "6b32f9bd-9e73-53de-8a99-92ae238eb835",
+    "ids": [
+      "6b32f9bd-9e73-53de-8a99-92ae238eb835"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_lint.ruff",
+    "category": "A_exact",
+    "query": "Run ruff on changed Python files before claiming a patch is clean.",
+    "recall_status": "ok",
+    "top1": "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+    "ids": [
+      "c1fe2871-56d4-5f8e-9dc2-9cdd3d9e6011",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_fmt.black",
+    "category": "A_exact",
+    "query": "Format Python with black using the repo default line length.",
+    "recall_status": "ok",
+    "top1": "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c",
+    "ids": [
+      "0ccbc1b8-1b87-5f99-a22d-8bb504a3d57c",
+      "edca559a-8f39-5bfc-bd45-d983fae4fb33"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_types.mypy",
+    "category": "A_exact",
+    "query": "Do not add new untyped public functions in the product package.",
+    "recall_status": "ok",
+    "top1": "84edb58c-0e83-50a5-98a5-ec15670740bf",
+    "ids": [
+      "84edb58c-0e83-50a5-98a5-ec15670740bf",
+      "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_http.timeout",
+    "category": "A_exact",
+    "query": "Outbound product HTTP calls use a 30 second timeout.",
+    "recall_status": "ok",
+    "top1": "39dde75d-5308-5542-b290-11c33b58db7e",
+    "ids": [
+      "39dde75d-5308-5542-b290-11c33b58db7e",
+      "00795571-1003-51e2-8a1f-0a480a7f90b2",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_json.utf8",
+    "category": "A_exact",
+    "query": "Bank files are UTF-8 JSON with a trailing newline.",
+    "recall_status": "ok",
+    "top1": "b09dec25-b908-5473-97bb-e6277e45fc7b",
+    "ids": [
+      "b09dec25-b908-5473-97bb-e6277e45fc7b",
+      "3d642301-f764-588d-8439-6629bc27d8cf",
+      "39096067-ca55-5574-9868-174e6c02c4b6",
+      "92638491-805b-5965-b3d3-15c56aba427b",
+      "6f572eae-e728-5c04-b217-78661f890a7e",
+      "6d23a9f1-df4a-516e-9c64-14688c156c12"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_ids.uuid",
+    "category": "A_exact",
+    "query": "Record ids are UUID strings. Do not invent short slugs as ids.",
+    "recall_status": "ok",
+    "top1": "09790dc1-f31c-5513-a200-5f87c0a300e2",
+    "ids": [
+      "09790dc1-f31c-5513-a200-5f87c0a300e2"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_limit.default6",
+    "category": "A_exact",
+    "query": "Default recall limit is 6 hits unless the caller sets limit.",
+    "recall_status": "ok",
+    "top1": "4075b3a6-86f6-5c33-8162-05f62fe45abc",
+    "ids": [
+      "4075b3a6-86f6-5c33-8162-05f62fe45abc",
+      "18dbff34-b2a1-5f0e-940a-85b05ba26723"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_empty.calibrate",
+    "category": "A_exact",
+    "query": "Empty bank recall_status is empty_bank with suggestion calibration_needed.",
+    "recall_status": "ok",
+    "top1": "6867da89-4d84-5ff9-a9f1-e6b48f7eefd7",
+    "ids": [
+      "6867da89-4d84-5ff9-a9f1-e6b48f7eefd7"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_host.loopback",
+    "category": "A_exact",
+    "query": "Bind the product server to 127.0.0.1 not 0.0.0.0.",
+    "recall_status": "ok",
+    "top1": "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+    "ids": [
+      "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "b915392e-f7d6-5b3f-9ea7-3491e871af1d",
+      "a56cd64e-b6a3-5d6d-a24d-c73dc7b1371c",
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "39096067-ca55-5574-9868-174e6c02c4b6"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_powershell.pwsh",
+    "category": "A_exact",
+    "query": "Windows launchers run under pwsh not Windows PowerShell 5 when possible.",
+    "recall_status": "ok",
+    "top1": "33352067-9340-53a2-a031-d43f6cbee965",
+    "ids": [
+      "33352067-9340-53a2-a031-d43f6cbee965",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_venv.pytest",
+    "category": "A_exact",
+    "query": "Bootstrap installs pytest into the product venv.",
+    "recall_status": "ok",
+    "top1": "cfd5c6f0-2dcb-5a39-a921-b8baf58fe84c",
+    "ids": [
+      "cfd5c6f0-2dcb-5a39-a921-b8baf58fe84c",
+      "edca559a-8f39-5bfc-bd45-d983fae4fb33"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_license.paid",
+    "category": "A_exact",
+    "query": "This product is a paid license. See LICENSE.",
+    "recall_status": "ok",
+    "top1": "06c1ff2a-84b9-50a1-b168-6c16157637c2",
+    "ids": [
+      "06c1ff2a-84b9-50a1-b168-6c16157637c2",
+      "b060bc13-28e7-54af-9ea3-9507c71b6a0e",
+      "62a427fc-8290-59d8-b36b-e269744218cb",
+      "39096067-ca55-5574-9868-174e6c02c4b6",
+      "f73bbeed-8b21-5eb4-a8ff-74a53a225dd1",
+      "edca559a-8f39-5bfc-bd45-d983fae4fb33"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_backup.dir",
+    "category": "A_exact",
+    "query": "CLI backup writes a timestamped JSON under the bank backups folder by default.",
+    "recall_status": "ok",
+    "top1": "6d23a9f1-df4a-516e-9c64-14688c156c12",
+    "ids": [
+      "6d23a9f1-df4a-516e-9c64-14688c156c12",
+      "92638491-805b-5965-b3d3-15c56aba427b",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "6753b9f9-3853-5ec7-8314-38d527650c99",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_restore.overwrite",
+    "category": "A_exact",
+    "query": "CLI restore replaces the live bank from a backup JSON.",
+    "recall_status": "ok",
+    "top1": "92638491-805b-5965-b3d3-15c56aba427b",
+    "ids": [
+      "92638491-805b-5965-b3d3-15c56aba427b",
+      "6d23a9f1-df4a-516e-9c64-14688c156c12",
+      "f7bb0d89-1500-5375-a9cb-a4f935e004ed",
+      "f0a6edfa-4552-5797-8366-2262677a58df",
+      "b09dec25-b908-5473-97bb-e6277e45fc7b",
+      "6f572eae-e728-5c04-b217-78661f890a7e"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  },
+  {
+    "id": "Z_fingerprint.sha256",
+    "category": "A_exact",
+    "query": "Health fingerprint includes sha256 bytes count and role.",
+    "recall_status": "ok",
+    "top1": "378e359b-2345-59ca-a4d0-2d37d92177f4",
+    "ids": [
+      "378e359b-2345-59ca-a4d0-2d37d92177f4"
+    ],
+    "top1_ok": true,
+    "hit_ok": true,
+    "neg_fp": false,
+    "inactive_leak": [],
+    "forbidden_hit": [],
+    "echo_query": true
+  }
+]
